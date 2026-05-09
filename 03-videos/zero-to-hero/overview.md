@@ -11,22 +11,30 @@
 
 就像学搭积木：先搭一块，再搭更多，最后搭出一个城堡。
 
+## 官方课程介绍
+
+来自 https://karpathy.ai/zero-to-hero.html：
+
+> "一门从零开始在代码中构建神经网络的课程。我们从反向传播的基础开始，逐步构建到现代深度神经网络，如 GPT。在我看来，语言模型是学习深度学习的绝佳起点，即使你最终想去其他领域（如计算机视觉），因为大多数知识都是可以迁移的。"
+
+**先修要求：** 扎实的 Python 编程 + 入门级数学（如导数、高斯分布）
+
 ## 系列目录
 
-:link: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
+:link: 课程主页: https://karpathy.ai/zero-to-hero.html
+:link: YouTube 播放列表: https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
 
-| # | 视频 | 内容 | 难度 |
-|---|------|------|------|
-| 1 | The spelled-out intro to neural networks and backpropagation | 从最基础开始：搭建第一个神经网络，理解反向传播 | :green_book: |
-| 2 | The spelled-out intro to language modeling | 用神经网络做语言模型——预测下一个字符 | :green_book: |
-| 3 | Building makemore Part 1 | 开始构建"makemore"——一个能生成名字的模型 | :green_book: |
-| 4 | Building makemore Part 2: MLP | 用多层感知器改进模型 | :orange_book: |
-| 5 | Building makemore Part 3: Activations & Gradients | 理解激活函数和梯度——训练的核心 | :orange_book: |
-| 6 | Building makemore Part 4: Becoming a Backprop Ninja | 反向传播忍者——手写反向传播 | :red_circle: |
-| 7 | Building makemore Part 5: Building a WaveNet | 构建 WaveNet——一个强大的生成模型 | :red_circle: |
-| 8 | Let's build GPT from scratch | **核心视频**：从零构建 GPT！ | :red_circle: |
-| 9 | Let's build GPT Tokenizer | GPT 的分词器——怎么把文字变成数字 | :orange_book: |
-| 10 | Attention机制深度讲解 | Transformer 的核心——注意力机制 | :red_circle: |
+| # | 时长 | 视频 | 内容 | 难度 |
+|---|------|------|------|------|
+| 1 | 2h25m | The spelled-out intro to neural networks and backpropagation: building micrograd | 从最基础开始：搭建第一个神经网络，理解反向传播，完全手把手 | :green_book: |
+| 2 | 1h57m | The spelled-out intro to language modeling: building makemore | bigram 字符级语言模型，引入 torch.Tensor | :green_book: |
+| 3 | 1h15m | Building makemore Part 2: MLP | 多层感知器字符级语言模型，ML 基础知识（学习率、超参数、过拟合） | :green_book: |
+| 4 | 1h55m | Building makemore Part 3: Activations & Gradients, BatchNorm | 激活函数、梯度统计分析、Batch Normalization | :orange_book: |
+| 5 | 1h55m | Building makemore Part 4: Becoming a Backprop Ninja | **反向传播忍者**——不用 PyTorch autograd，手动反向传播 | :red_circle: |
+| 6 | 56m | Building makemore Part 5: Building a WaveNet | 树状结构深度网络，到达 WaveNet 架构 | :red_circle: |
+| 7 | 1h56m | Let's build GPT: from scratch, in code, spelled out. | **核心视频**：从零构建 GPT！跟着 Attention Is All You Need + GPT-2/3 论文 | :red_circle: |
+| 8 | 2h13m | Let's build the GPT Tokenizer | 分词器——LLM 中从字符串到 token 的翻译层 | :orange_book: |
+| 9 | 待定 | Attention 机制深度讲解 | Transformer 的核心——注意力机制（持续更新中） | :red_circle: |
 
 ## 学习方法（Karpathy 的建议）
 
