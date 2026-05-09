@@ -66,3 +66,7 @@ Visit `http://localhost:8123` in your browser.
 ---
 
 *Fetched from https://github.com/karpathy/ulogme on 2026-05-09*
+
+## 三岁版
+
+ulogme 是一个"时间小侦探"，默默记下你今天在电脑上都做了什么。它知道你在哪个窗口工作，打了多少字，还能画成漂亮的图给你看。一切都存在你自己的电脑里，别人看不到，就像你的秘密日记本。

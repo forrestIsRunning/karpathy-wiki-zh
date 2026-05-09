@@ -48,3 +48,7 @@ MIT
 ---
 
 *Fetched from https://github.com/karpathy/arxiv-sanity-preserver on 2026-05-09*
+
+## 三岁版
+
+arxiv-sanity-preserver 就像你的"论文小助手"。每天有太多科学论文冒出来，根本看不过来，它就帮你自动从网上收论文、整理好，还能推荐你可能感兴趣的文章。就像有一个好朋友先帮你把好玩的东西挑出来，省得你在一大堆里面自己翻。

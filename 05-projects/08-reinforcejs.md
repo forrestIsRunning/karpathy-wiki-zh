@@ -48,3 +48,7 @@ MIT
 ---
 
 *Fetched from https://github.com/karpathy/reinforcejs on 2026-05-09*
+
+## 三岁版
+
+REINFORCEjs 是教电脑"自己学会玩游戏"的工具。就像你教小狗学会坐下就给零食一样，电脑做对了就"奖励"它，做错了就"扣分"，慢慢它就学会怎么玩得更好。一切都在浏览器里运行，不用装任何东西。

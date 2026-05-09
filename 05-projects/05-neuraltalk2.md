@@ -46,3 +46,7 @@ MIT
 ---
 
 *Fetched from https://github.com/karpathy/neuraltalk2 on 2026-05-09*
+
+## 三岁版
+
+neuraltalk2 就像给照片配"看图说话"的 AI。你看一张照片，它能告诉你"这是一只小狗在草地上跑"。它先看懂图片里有什么，然后用学过的"话"组织成句子说出来。比第一版快了一百倍，就像从走路变成坐小汽车！

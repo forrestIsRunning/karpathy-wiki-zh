@@ -47,3 +47,7 @@ NVIDIA Corporation for GPU donation. Supported by ONR MURI grant, Intel research
 ---
 
 *Fetched from https://cs.stanford.edu/people/karpathy/densecap/ on 2026-05-09*
+
+## 三岁版
+
+DenseCap 是"看图说话升级版"。neuraltalk 只能给整张图写一句话，但 DenseCap 能一张图里找出好多好多东西，然后给每个东西都配一句话。比如一张有很多动物的图，它能说出"这里有只长颈鹿"、"那边有只斑马"、"树上还有一只小鸟"。就像一个很细心的导游！

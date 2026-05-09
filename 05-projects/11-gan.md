@@ -23,3 +23,7 @@ The demo attempts to reproduce a figure from the original GAN paper, but as a li
 ---
 
 *Fetched from https://cs.stanford.edu/people/karpathy/gan/ on 2026-05-09*
+
+## 三岁版
+
+GAN 就像一个会"造假的画家"和"小侦探"在你面前玩看画猜真假的游戏。造假画家努力画出以假乱真的画，小侦探努力找出哪张是假的。两个人越玩越厉害，最后造假画家画出来的东西就几乎和真的一模一样了！这个网页让你直接在浏览器里看它们玩游戏。

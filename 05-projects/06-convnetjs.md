@@ -42,3 +42,7 @@ MIT
 ---
 
 *Fetched from https://cs.stanford.edu/people/karpathy/convnetjs/ on 2026-05-09*
+
+## 三岁版
+
+convnetjs 是"在浏览器里学AI"的神奇工具。你不需要下载任何软件，打开网页就能教电脑认数字、认图片。就像你在网页上玩一个会自己变聪明的游戏，看着电脑一点点学会新本领。

@@ -27,3 +27,7 @@ Users can toggle sorting by individual LDA topics to filter papers by subject ar
 ---
 
 *Fetched from https://cs.stanford.edu/people/karpathy/nipspreview/ on 2026-05-09*
+
+## 三岁版
+
+NIPS Preview 是一个"论文书架"，帮你看清楚学术大会上的每一篇论文。它把每篇文章的标题、作者、主要内容都整理得漂漂亮亮的，还告诉你这篇文章在讲什么方向——是讲"数学理论"还是"计算机视觉"之类的。就像把一堆书按类别摆在书架上，方便你挑着看。

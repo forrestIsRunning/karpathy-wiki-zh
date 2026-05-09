@@ -65,3 +65,7 @@ Andrej Karpathy. "I like to train Deep Neural Nets on large datasets."
 ---
 
 *Fetched from https://github.com/karpathy and GitHub API on 2026-05-09*
+
+## 三岁版
+
+这里是 Andrej Karpathy 的"作品展示柜"。他是一位很厉害的 AI 科学家，在 GitHub 上放了好多好玩的工具——有教电脑认图的、有教电脑写诗的、还有教电脑自己学会玩游戏的。最有名的 nanoGPT 就像是一个"微型 ChatGPT"，人人都能拿来玩。他的口号是："我喜欢在大数据集上训练深度神经网络！"

@@ -29,3 +29,7 @@ Maintained by @karpathy.
 ---
 
 *Fetched from https://cs.stanford.edu/people/karpathy/scholaroctopus/ on 2026-05-09*
+
+## 三岁版
+
+ScholarOctopus 是一个巨大的"论文地图"，上面有7000多篇论文，就像一个星空图。每篇论文都是一颗星星，内容差不多的星星就靠在一起，这样你一看就知道"哦，这些论文都是讲同一个方向的"。你还能在上面搜索论文标题或作者名字，就像在地图上找地方一样方便。
