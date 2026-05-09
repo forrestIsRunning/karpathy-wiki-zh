@@ -13,3 +13,7 @@ Recurrent Neural Networks (RNNs), and specifically a variant with Long Short-Ter
 
 At the time of recording, Andrej was a 5th year PhD student at Stanford University, studying Deep Learning and its applications to Computer Vision and Natural Language Processing. In particular, his recent work has focused on Image Captioning, Recurrent Neural Network Language Models and Reinforcement Learning. On a side, he enjoys implementing state of the art Deep Learning models in Javascript, competing against Convolutional Networks on the ImageNet challenge, and blogging. Before joining Stanford he completed an undergraduate degree in Computer Science and Physics at the University of Toronto and a Computer Science Master's degree at the University of British Columbia.
 
+## 三岁版
+
+这是安德烈在 2016 年的 RE-WORK 深度学习峰会上做的演讲，当时他还是斯坦福的博士生。他讲的是 RNN（递归神经网络）和 LSTM（长短期记忆网络）——这两种特殊的 AI 模型特别擅长处理"有顺序"的信息，比如文字、语音、音乐等。他打了个比方：普通的 AI 像是一台只能看单张照片的照相机，而 RNN 和 LSTM 就像一台能理解整个故事的摄像机，因为它能"记住"前面发生了什么。这个技术后来成为了 ChatGPT 等大语言模型的基础之一。
+
