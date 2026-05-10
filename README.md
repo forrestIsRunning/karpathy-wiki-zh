@@ -19,6 +19,16 @@
 | **🚀 SEO 优化** | GitHub 搜索友好 + AI 引擎（ChatGPT等）友好 |
 | **🔗 来源可追溯** | 每个文件标注原始链接 |
 
+## 🧭 快速导航
+
+| 如果你是... | 从这里开始 |
+|-------------|-----------|
+| 🤷 完全新手 | [`LEARNING_PATH.md`](LEARNING_PATH.md) — 按你的水平选路径 |
+| 🔍 想找特定主题 | [`CROSS_REFERENCE.md`](CROSS_REFERENCE.md) — 按主题索引 |
+| 📚 想浏览全部 | 往下看「内容总览」
+| **🚀 SEO 优化** | GitHub 搜索友好 + AI 引擎（ChatGPT等）友好 |
+| **🔗 来源可追溯** | 每个文件标注原始链接 |
+
 ---
 
 ## 📋 内容总览
@@ -86,6 +96,9 @@ karpathy.ai 主页上的所有链接都已覆盖：3 个博客(42篇文章)、Yo
 ```
 karpathy-wiki-zh/
 ├── README.md                         ← 本文件（项目首页）
+├── INDEX.md                          ← 完整内容索引（SEO/GEO 优化）
+├── LEARNING_PATH.md                  ← 学习路径（按水平选路线）
+├── CROSS_REFERENCE.md                ← 交叉引用（按主题找内容）
 ├── 00-for-kids.md                    ← 整站通俗解释（给孩子讲）
 ├── about/                         ← 关于 Andrej Karpathy
 │   ├── andrej-karpathy.md            ← 个人简介
