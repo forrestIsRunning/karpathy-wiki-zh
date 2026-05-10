@@ -19,23 +19,23 @@
 
 ## 全部内容清单
 
-### 📝 博客文章 (42篇)
+### 📝 博客文章 (40篇)
 
 #### GitHub Blog (23篇)
 - [从零实现比特币 (Bitcoin in Python)](blog/github-blog/2021-06-21-bitcoin-in-python.md)
-- [AI 短篇小说：正向传播 (Forward Pass)](blog/github-blog/2021-03-27-forward-pass-ai-short-story.md)
+
 - [生物黑客精简版 (Biohacking Lite)](blog/github-blog/2020-06-11-biohacking-lite.md)
 - [训练神经网络的菜谱 (Recipe for Training Neural Networks)](blog/github-blog/2019-04-25-recipe-for-training-neural-networks.md)
 - [Software 2.0 (Medium)](blog/medium-blog/software-2.0.md)
 - [PhD 生存指南 (A Survival Guide to a PhD)](blog/github-blog/2016-09-07-phd-survival-guide.md)
-- [AI 短篇小说：认知不连续性](blog/github-blog/2015-11-14-ai-cognitive-discontinuity.md)
+
 - [循环神经网络的惊人有效性 (RNNs)](blog/github-blog/2015-05-21-unreasonable-effectiveness-of-rnns.md)
 - [和 ConvNet 比赛 ImageNet 分类](blog/github-blog/2014-09-02-competing-against-convnet-on-imagenet.md)
 - [计算机视觉的现状](blog/github-blog/2012-10-22-state-of-computer-vision.md)
 - [microGPT — 200行Python实现GPT](blog/github-blog/2026-02-12-microgpt.md)
 - [深度神经网络33年](blog/github-blog/2022-03-14-deep-neural-nets-33-years.md)
 - [从像素学打乒乓球 (Deep RL)](blog/github-blog/2016-05-31-deep-reinforcement-learning-pong-from-pixels.md)
-- [更多...](blog/github-blog/)
+- 
 
 #### Bear Blog (13篇)
 - [Sequoia Ascent 2026：软件3.0时代](blog/bear-blog/sequoia-ascent-2026.md)
@@ -161,7 +161,7 @@
 | 总文件数 | 186 |
 | 通俗解释覆盖率 | 100% |
 | 中文翻译率 | 100% |
-| 博客原文 | 42 篇 |
+| 博客原文 | 40 篇 |
 | 演讲视频 | 25+ |
 | 开源项目 | 14 个 |
 | 学术论文 | 15 篇 |

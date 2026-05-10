@@ -85,8 +85,6 @@
 
 | 文件 | 类型 | 说明 |
 |------|------|------|
-| [`blog/github-blog/2015-11-14-ai-cognitive-discontinuity.md`](blog/github-blog/2015-11-14-ai-cognitive-discontinuity.md) | 短篇小说 | AI 超过人类后 |
-| [`blog/github-blog/2021-03-27-forward-pass-ai-short-story.md`](blog/github-blog/2021-03-27-forward-pass-ai-short-story.md) | 短篇小说 | AGI 时代的人类故事 |
 | [`blog/bear-blog/the-space-of-minds.md`](blog/bear-blog/the-space-of-minds.md) | 博客 | 人类的脑子 vs AI 的脑子 |
 | [`blog/bear-blog/verifiability.md`](blog/bear-blog/verifiability.md) | 博客 | 可验证性——AI 能打对错才能学会 |
 | [`blog/medium-blog/alphago-in-context.md`](blog/medium-blog/alphago-in-context.md) | 博客 | AlphaGo 只会下围棋 |
@@ -94,7 +92,6 @@
 ## 生产力 / 健康 / 生活
 
 | 文件 | 类型 | 说明 |
-|------|------|------|
 | [`blog/github-blog/2020-06-11-biohacking-lite.md`](blog/github-blog/2020-06-11-biohacking-lite.md) | 博客 | 减肥和健康的生物黑客实验 |
 | [`blog/github-blog/2014-08-03-quantifying-productivity.md`](blog/github-blog/2014-08-03-quantifying-productivity.md) | 博客 | 追踪自己的生产力 |
 | [`blog/bear-blog/digital-hygiene.md`](blog/bear-blog/digital-hygiene.md) | 博客 | 数字卫生——保护隐私 |
