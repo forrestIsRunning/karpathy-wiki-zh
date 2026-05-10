@@ -25,14 +25,14 @@
 
 | 类别 | 文件数 | 覆盖内容 | 入口 |
 |------|--------|----------|------|
-| 👤 [关于他](01-about/) | 5 | 个人简介、书单(37本)、学习方法、外部链接 | `01-about/` |
-| ✍️ [博客](02-blog/) | 89 | GitHub 博客(23篇)、Bear博客(13篇)、Medium(6篇) 全文+三岁版 | `02-blog/` |
-| 🎬 [视频](03-videos/) | 39 | Zero to Hero 系列、25个演讲/访谈、大众视频 | `03-videos/` |
-| 🏫 [教学](04-teaching/) | 13 | CS231n 课程官方内容 + 三岁版 | `04-teaching/` |
-| 🔧 [项目](05-projects/) | 17 | micrograd、char-rnn、arxiv-sanity 等 14 个项目详解 | `05-projects/` |
-| 📄 [论文](06-publications/) | 18 | CVPR/ICLR/NIPS 等 15 篇论文摘要+三岁版 | `06-publications/` |
-| 💡 [核心思想](07-core-ideas/) | 3 | Software 2.0、反向传播、端到端学习等深度解读 | `07-core-ideas/` |
-| 📅 [时间线](08-timeline/) | 1 | 2005 年至今完整人生经历 | `08-timeline/` |
+| 👤 [关于他](about/) | 5 | 个人简介、书单(37本)、学习方法、外部链接 | `about/` |
+| ✍️ [博客](blog/) | 89 | GitHub 博客(23篇)、Bear博客(13篇)、Medium(6篇) 全文+三岁版 | `blog/` |
+| 🎬 [视频](videos/) | 39 | Zero to Hero 系列、25个演讲/访谈、大众视频 | `videos/` |
+| 🏫 [教学](teaching/) | 13 | CS231n 课程官方内容 + 三岁版 | `teaching/` |
+| 🔧 [项目](projects/) | 17 | micrograd、char-rnn、arxiv-sanity 等 14 个项目详解 | `projects/` |
+| 📄 [论文](publications/) | 18 | CVPR/ICLR/NIPS 等 15 篇论文摘要+三岁版 | `publications/` |
+| 💡 [核心思想](core-ideas/) | 3 | Software 2.0、反向传播、端到端学习等深度解读 | `core-ideas/` |
+| 📅 [时间线](timeline/) | 1 | 2005 年至今完整人生经历 | `timeline/` |
 
 ---
 
@@ -87,37 +87,37 @@ karpathy.ai 主页上的所有链接都已覆盖：3 个博客(42篇文章)、Yo
 karpathy-wiki-zh/
 ├── README.md                         ← 本文件（项目首页）
 ├── 00-for-kids.md                    ← 整站三岁版（给孩子讲）
-├── 01-about/                         ← 关于 Andrej Karpathy
+├── about/                         ← 关于 Andrej Karpathy
 │   ├── andrej-karpathy.md            ← 个人简介
 │   ├── bookshelf.md                  ← 37本书单
 │   ├── advice-for-students.md        ← 学习建议
 │   └── additional-links.md           ← 其他外部链接
-├── 02-blog/                          ← 博客（43篇文章）
+├── blog/                          ← 博客（43篇文章）
 │   ├── overview.md                   ← 博客总览
 │   ├── github-blog/                  ← GitHub 博客（23篇）
 │   ├── bear-blog/                    ← Bear 博客（13篇）
 │   └── medium-blog/                  ← Medium 博客（6篇）
-├── 03-videos/                        ← 视频（35+内容）
+├── videos/                        ← 视频（35+内容）
 │   ├── overview.md                   ← 视频总览
 │   ├── zero-to-hero/                 ← Zero to Hero 系列
 │   └── talks/                        ← 25个演讲
-├── 04-teaching/                      ← CS231n 课程
+├── teaching/                      ← CS231n 课程
 │   ├── cs231n-overview.md            ← 课程总览
 │   └── cs231n/                       ← 课程详细内容
-├── 05-projects/                      ← 开源项目（14个）
+├── projects/                      ← 开源项目（14个）
 │   ├── overview.md                   ← 项目总览
 │   ├── 01-micrograd.md ~ 99-*.md     ← 各项目详情
 │   └── README-CN.md                  ← 中文项目索引
-├── 06-publications/                  ← 学术论文（15篇）
+├── publications/                  ← 学术论文（15篇）
 │   ├── overview.md                   ← 论文总览
 │   ├── paper-details.md              ← 论文详情
 │   ├── README-CN.md                  ← 中文论文索引
 │   └── 01-*.md ~ 15-*.md            ← 各论文详情
-├── 07-core-ideas/                    ← 核心思想
+├── core-ideas/                    ← 核心思想
 │   ├── karpathy-philosophy.md        ← 核心理念
 │   ├── software-2.0.md               ← Software 2.0 深度解读
 │   └── deep-concepts.md              ← 10个核心概念详解
-├── 08-timeline/                      ← 人生时间线
+├── timeline/                      ← 人生时间线
 │   └── career-timeline.md            ← 2005-至今
 └── assets/                           ← 资源文件
     └── stateofgpt.pdf                ← State of GPT 幻灯片
