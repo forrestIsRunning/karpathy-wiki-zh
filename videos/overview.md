@@ -1,6 +1,6 @@
 # Karpathy 视频/演讲全集
 
-> 他的 YouTube 频道和所有重要演讲。每条都有"三岁版"解释。
+> 他的 YouTube 频道和所有重要演讲。每条都有"通俗解释"解释。
 
 ## YouTube 频道
 :link: https://www.youtube.com/@AndrejKarpathy
@@ -14,7 +14,7 @@
 
 ### 大众线 — 给非技术背景的人
 
-| 视频 | 链接 | 三岁版 |
+| 视频 | 链接 | 通俗解释 |
 |------|------|--------|
 | Deep Dive into LLMs like ChatGPT | [看](https://www.youtube.com/watch?v=7xTGNNLPyMI) | ChatGPT 肚子里到底有什么？从底层原理讲起 |
 | How I use LLMs | [看](https://www.youtube.com/watch?v=EWvNQjAaOHw) | Karpathy 自己怎么用 LLM 提高效率 |

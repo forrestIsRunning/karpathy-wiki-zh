@@ -1,4 +1,4 @@
-# 搬家到 Jekyll -- 三岁小孩版
+# 搬家到 Jekyll -- 
 
 Karpathy 叔叔以前用 Wordpress 写博客。但是 Wordpress 太慢了，太胖了，还老被人攻击（黑客把他的文章里塞满了垃圾广告！）。
 

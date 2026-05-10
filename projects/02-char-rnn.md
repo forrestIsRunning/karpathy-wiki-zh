@@ -4,60 +4,58 @@
 **Stars:** 12k | **Forks:** 2.6k | **Language:** Lua
 **License:** MIT
 
-## Description
+## 项目介绍
 
-Multi-layer Recurrent Neural Networks (RNN, LSTM, and GRU) for training/sampling from character-level language models. The model takes one text file as input and trains a Recurrent Neural Network that learns to predict the next character in a sequence. The RNN can then be used to generate text character by character that will look like the original training data.
+多层循环神经网络（RNN、LSTM 和 GRU），用于训练/采样字符级语言模型。该模型接受一个文本文件作为输入，训练一个循环神经网络来学习预测序列中的下一个字符。训练完成后，RNN 可以逐字符地生成看起来像原始训练数据的文本。
 
-The context of this code base is described in detail in [Karpathy's blog post](https://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+关于此代码库的详细背景，请参阅 [Karpathy 的博客文章](https://karpathy.github.io/2015/05/21/rnn-effectiveness/)。
 
-This code is really just a slightly more fancy version of a [100-line gist](https://gist.github.com/karpathy/d4dee566867f8291f086) written in Python/numpy. The code in this repo additionally: allows for multiple layers, uses an LSTM instead of a vanilla RNN, has more supporting code for model checkpointing, and is much more efficient since it uses mini-batches and can run on a GPU.
+这段代码实际上只是一个用 Python/numpy 编写的 [100 行 gist 代码](https://gist.github.com/karpathy/d4dee566867f8291f086) 的稍微花哨一点的版本。此仓库中的代码额外支持：多层网络、使用 LSTM 代替普通 RNN、更多的模型检查点保存代码，并且由于使用了小批量训练且可以在 GPU 上运行，效率更高。
 
-**Note:** Justin Johnson (@jcjohnson) later re-implemented char-rnn from scratch as [torch-rnn](https://github.com/jcjohnson/torch-rnn), with a much nicer/smaller/cleaner/faster Torch code base using Adam for optimization.
+**注意：** Justin Johnson (@jcjohnson) 后来从头重新实现了 char-rnn，项目名为 [torch-rnn](https://github.com/jcjohnson/torch-rnn)，使用 Adam 优化器，代码更漂亮、更小、更简洁、更快。
 
-## Requirements
+char-rnn 就像一只会模仿说话的小鹦鹉。你给它读一本莎士比亚的书，它就会学着写出听起来很像莎士比亚的新句子。它一个字一个字地猜下一个字是什么，就像玩"接龙"游戏一样。虽然它不懂意思，但能模仿得像模像样！
 
-Written in Lua and requires Torch. Additional packages needed via LuaRocks: `nngraph`, `optim`, `nn`. GPU support requires `cutorch` and `cunn`. OpenCL GPU support via `cltorch` and `clnn`.
+## 环境要求
 
-## Usage
+使用 Lua 编写，需要 Torch。通过 LuaRocks 安装额外包：`nngraph`、`optim`、`nn`。GPU 支持需要 `cutorch` 和 `cunn`。OpenCL GPU 支持需要 `cltorch` 和 `clnn`。
 
-### Data
-All input data is stored inside the `data/` directory. An example dataset of Shakespeare's works is included. For custom data, create a single file `input.txt` in a folder in `data/`.
+## 使用方法
 
-### Training
-Start training using `train.lua`:
+### 数据
+所有输入数据存放在 `data/` 目录下。附带了一个莎士比亚作品的数据集示例。如果要使用自定义数据，在 `data/` 下创建一个文件夹，放入单个 `input.txt` 文件。
+
+### 训练
+使用 `train.lua` 开始训练：
 ```
 $ th train.lua -gpuid -1
 ```
-The `-gpuid -1` flag tells the code to train using CPU. There are many other flags available — consult `$ th train.lua -help`.
+`-gpuid -1` 参数告诉代码使用 CPU 训练。还有很多其他参数——查看 `$ th train.lua -help`。
 
-Key parameters:
-- `rnn_size`: number of neurons per layer
-- `num_layers`: number of layers (default 2, recommend 2/3)
-- `dropout`: dropout rate for regularization
-- `batch_size`: number of parallel data streams
-- `seq_length`: sequence length / backpropagation time window
+关键参数：
+- `rnn_size`：每层的神经元数量
+- `num_layers`：层数（默认 2，建议 2 或 3）
+- `dropout`：用于正则化的 dropout 比率
+- `batch_size`：并行数据流的数量
+- `seq_length`：序列长度 / 反向传播的时间窗口
 
-### Sampling
-Generate new text from a checkpoint:
+### 采样
+从检查点生成新文本：
 ```
 $ th sample.lua cv/some_checkpoint.t7 -gpuid -1
 ```
-Important parameter: `-temperature` (range 0-1, default 1). Lower temperature = more conservative predictions, higher temperature = more diversity but more mistakes. Can also prime the model with `-primetext`.
+重要参数：`-temperature`（范围 0-1，默认 1）。温度越低，预测越保守；温度越高，多样性越大但错误也越多。还可以使用 `-primetext` 为模型提供初始文本。
 
-## Tips and Tricks
+## 技巧与建议
 
-Monitor the difference between training loss and validation loss:
-- If training loss is much lower than validation loss, the network may be overfitting — decrease network size or increase dropout.
-- If training/validation loss are about equal, the model is underfitting — increase model size.
+监控训练损失和验证损失之间的差异：
+- 如果训练损失远低于验证损失，网络可能过拟合了——减小网络规模或增加 dropout。
+- 如果训练损失和验证损失大致相等，模型欠拟合——增大模型规模。
 
-## License
+## 许可证
 
 MIT
 
 ---
 
-*Fetched from https://github.com/karpathy/char-rnn on 2026-05-09*
-
-## 三岁版
-
-char-rnn 就像一只会模仿说话的小鹦鹉。你给它读一本莎士比亚的书，它就会学着写出听起来很像莎士比亚的新句子。它一个字一个字地猜下一个字是什么，就像你玩"接龙"游戏一样。虽然它不懂意思，但能模仿得像模像样！
+*数据获取自 https://github.com/karpathy/char-rnn (2026-05-09)*

@@ -1,4 +1,4 @@
-# How I use LLMs
+# 我如何使用大语言模型
 
 - **Source:** [YouTube](https://www.youtube.com/watch?v=EWvNQjAaOHw)
 - **Author:** Andrej Karpathy
@@ -10,6 +10,8 @@
 ## Description
 
 The example-driven, practical walkthrough of Large Language Models and their growing list of related features, as a new entry to my general audience series on LLMs. In this more practical followup, I take you through the many ways I use LLMs in my own life.
+> **中文说明：** 以实际案例驱动的 LLM 实践指南，全面展示 Karpathy 日常生活中使用 LLM 的各种方式——从基础交互到高级功能。
+
 
 Chapters
 00:00:00 Intro into the growing LLM ecosystem
@@ -53,7 +55,7 @@ Discord channel for Eureka Labs and this video:   / discord  
 Educational Use Licensing
 This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.
 
-## 三岁版
+## 通俗解释
 
 这个视频是安德烈在教大家他平时是怎么用 ChatGPT 这些智能工具的，就像一个好朋友在分享他的"秘密武器"。他展示了各种各样好玩的用法：让电脑帮忙查资料、写代码、画图、甚至做视频！他还教大家怎么用语音跟电脑聊天，就像跟一个朋友说话一样简单。最后他告诉大家，这些工具虽然厉害，但要选对型号才能把事情做得更好——就像小朋友选对积木才能搭出好看的房子。
 

@@ -9,6 +9,8 @@
 ## Description
 
 We implement a bigram character-level language model, which we will further complexify in followup videos into a modern Transformer language model, like GPT. In this video, the focus is on (1) introducing torch.Tensor and its subtleties and use in efficiently evaluating neural networks and (2) the overall framework of language modeling that includes model training, sampling, and the evaluation of a loss (e.g. the negative log likelihood for classification).
+> **中文说明：** 实现一个 bigram 字符级语言模型，后续视频将逐步复杂化成一个现代 Transformer 语言模型（如 GPT）。
+
 
 Links:
 makemore on github: https://github.com/karpathy/makemore

@@ -1,4 +1,4 @@
-# Verifiability — 三岁小孩版
+# Verifiability — 
 
 Karpathy 叔叔在讲一个道理：什么东西容易被 AI 自动化？答案是——能"验证对错"的事情。
 

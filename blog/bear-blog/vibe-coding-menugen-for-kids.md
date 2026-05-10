@@ -1,4 +1,4 @@
-# Vibe coding MenuGen — 三岁小孩版
+# Vibe coding MenuGen — 
 
 Karpathy 叔叔去餐厅吃饭，看不懂菜单上的菜名——"Pate 是什么？Tagine 又是什么？" 于是他决定自己做一个 App：拍一张菜单照片，AI 就会给每个菜生成一张图片，这样你就知道要点什么了！
 

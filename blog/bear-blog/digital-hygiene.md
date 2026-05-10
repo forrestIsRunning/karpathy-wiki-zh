@@ -4,6 +4,44 @@ date: 2025-03-17
 url: https://karpathy.bearblog.dev/digital-hygiene/
 ---
 
+**中文翻译**
+
+Karpathy 分享了他的"数字卫生"指南——关于日常计算的隐私和安全。
+
+**密码管理器**：用 1Password 等工具为每个网站生成独立强密码。
+
+**硬件安全密钥**：为 Google、1Password 等关键服务配置 YubiKey 作为第二因素。攻击者需要同时拥有你的密码和物理钥匙才能登录，风险降低约 1000 倍。
+
+**生物识别**：在 iOS 上开启 FaceID。
+
+**安全问题**：把它们当密码处理——生成随机答案，存在 1Password 里。
+
+**磁盘加密**：开启 Mac 的 File Vault。
+
+**物联网**：尽量避免"智能"设备——它们本质上是极不安全的联网电脑，有麦克风，会回传数据。
+
+**通讯**：用 Signal 替代短信，开启消失消息。
+
+**浏览器**：推荐 Brave（基于 Chromium 的隐私优先浏览器）。
+
+**搜索引擎**：推荐 Brave Search（有自己的索引，不像 DuckDuckGo 只是 Bing 的皮）。
+
+**信用卡**：用 privacy.com 为每个商户生成独立信用卡。
+
+**地址**：用虚拟邮件服务（如 Virtual Post Mail），不要给随机商家你的真实地址。
+
+**邮件**：用 Proton Mail。永远不点击邮件中的链接。关闭默认加载图片。
+
+**VPN**：推荐 Mullvad VPN，按需开启。
+
+**DNS 拦截**：用 NextDNS 拦截广告和跟踪器。
+
+**网络监控**：用 Little Snitch 监控 Mac 上各 App 的网络活动。
+
+**工作生活分离**：不在工作电脑上登录个人服务。
+
+
+
 Digital hygiene
 
 *17 Mar, 2025*

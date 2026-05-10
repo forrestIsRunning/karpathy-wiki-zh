@@ -7,36 +7,37 @@
 - **Year:** 2012
 - **URL:** https://cs.stanford.edu/people/karpathy/nips2012.pdf
 
-## Abstract
-Recent work in unsupervised feature learning has focused on the goal of discovering high-level features from unlabeled images. Much progress has been made in this direction, but in most cases it is still standard to use a large amount of labeled data in order to construct detectors sensitive to object classes or other complex patterns in the data.
+## 摘要
 
-In this paper, we aim to test the hypothesis that unsupervised feature learning methods, provided with only unlabeled data, can learn high-level, invariant features that are sensitive to commonly-occurring objects. Though a handful of prior results suggest that this is possible when each object class accounts for a large fraction of the data (as in many labeled datasets), it is unclear whether something similar can be accomplished when dealing with completely unlabeled data.
+最近无监督特征学习的研究聚焦于从无标签图像中发现高级特征的目标。虽然这个方向已经取得了很大进展，但在大多数情况下，仍然需要使用大量标注数据来构建对物体类别或其他复杂模式敏感的特征检测器。
 
-A major obstacle to this test, however, is scale: we cannot expect to succeed with small datasets or with small numbers of learned features. Here, we propose a large-scale feature learning system that enables us to carry out this experiment, learning 150,000 features from tens of millions of unlabeled images.
+在本文中，我们旨在检验以下假设：仅提供无标签数据的无监督特征学习方法能够学习高级的、不变性的特征，并对常见物体敏感。尽管有一些前期结果表明，当每个物体类别占数据集的很大比例时（如在许多标注数据集中），这可能是可行的，但在处理完全无标签的数据时，类似的方法是否仍然有效尚不清楚。
 
-Based on two scalable clustering algorithms (K-means and agglomerative clustering), we find that our simple system can discover features sensitive to a commonly occurring object class (human faces) and can also combine these into detectors invariant to significant global distortions like large translations and scale.
+然而，这一验证的主要障碍在于规模问题：我们不能期望在小型数据集或少量学习特征上取得成功。本文中，我们提出了一个大规模特征学习系统，使我们能够进行这项实验，从数千万张无标签图像中学习 150,000 个特征。
 
-## Algorithm
+基于两种可扩展的聚类算法（K-means 和凝聚聚类），我们发现我们的简单系统能够发现对常见物体类别（人脸）敏感的特征，并且能够将这些特征组合成对大幅度的全局变形（如大范围平移和尺度变化）具有不变性的检测器。
 
-The system is built on two learning modules:
-1. **Simple cells** (selective features): K-means-like clustering to learn a dictionary of linear filters.
-2. **Complex cells** (invariant features): Agglomerative clustering to pool simple cell responses based on similarity, creating invariance to transformations.
+## 算法
 
-The architecture alternates layers of simple and complex cells, analogous to biological visual systems and HMAX-like models.
+该系统建立在两个学习模块之上：
+1. **简单细胞**（选择性特征）：类 K-means 聚类，学习线性滤波器字典。
+2. **复杂细胞**（不变性特征）：凝聚聚类，根据相似性对简单细胞的响应进行池化，从而创造对变换的不变性。
 
-## Key Results
-- Learned 150,000 features from 57 million unlabeled image patches (from 1.4 million YouTube thumbnails).
-- Discovered features selective for human faces without any supervision.
-- Achieved 86% AUC for face detection compared to 77% for a supervised linear filter baseline.
-- Demonstrated that object-selective features can emerge purely from unsupervised learning at scale.
-- Used K-means and agglomerative clustering for scalability.
+该架构交替堆叠简单细胞层和复杂细胞层，类似于生物视觉系统和 HMAX 类模型。
 
-## Section Structure
-1. Introduction
-2. Algorithm (Learning Selective Features, Learning Invariant Features, Algorithm Behavior, Feature Hierarchy)
-3. Experiments (Low-Level Visualizations, Higher-Level Cells)
-4. Related Work
-5. Conclusions
+## 关键结果
+- 从 5700 万张无标签图像块（来自 140 万张 YouTube 缩略图）中学习了 150,000 个特征。
+- 在没有任何监督的情况下发现了对人脸具有选择性的特征。
+- 在人脸检测任务上取得了 86% 的 AUC，而监督式线性滤波器基线为 77%。
+- 证明了物体选择性特征可以通过大规模无监督学习纯粹地涌现出来。
+- 使用了 K-means 和凝聚聚类来保证可扩展性。
 
-## 三岁版
-这个研究想知道：如果不告诉电脑"这是人脸"，电脑自己看很多很多照片之后，能不能自己发现"人脸"这个东西？结果发现，当给电脑看成千上万张乱七八糟的图片之后，电脑真的自己学会了认脸！就像小朋友从来没有被教过"什么是苹果"，但看了很多苹果之后，自己就能认出苹果长什么样。
+## 论文结构
+1. 引言
+2. 算法（学习选择性特征、学习不变性特征、算法行为、特征层级结构）
+3. 实验（低层可视化、高层细胞）
+4. 相关工作
+5. 结论
+
+## 解读
+这项研究想弄清楚：如果不告诉电脑"这是人脸"，让电脑自己看大量照片之后，它能否自己发现"人脸"这个东西？结果发现，当给电脑看成千上万张各种各样图片之后，电脑真的自己学会了认脸！就像从来没有被教过"什么是苹果"，但看了很多苹果之后，自己就能认出苹果长什么样。

@@ -1,4 +1,4 @@
-# A Peek at Trends in Machine Learning — 三岁小孩版
+# A Peek at Trends in Machine Learning — 
 
 Karpathy 叔叔做了一个数据分析。他有一个存了 28,000 多篇论文的数据库，他想看看这些年来 AI 研究人员都在研究什么热门话题。
 

@@ -1,3 +1,21 @@
+---
+
+**中文翻译**
+
+Karpathy 在斯坦福 CS231n 课程中要求学生用原始 numpy 实现反向传播的各层 forward 和 backward pass。有学生质疑："现实中 TensorFlow 会自动计算，为什么还要学？"
+
+**Karpathy 的回答**：反向传播是一个**泄漏的抽象**（leaky abstraction）。
+
+你不能简单地堆叠任意层然后指望"魔法"帮你优化。以下是一些需要理解反向传播才能 debug 的例子：
+
+1. **sigmoid 梯度消失**：如果权重初始化或数据预处理不当，sigmoid/tanh 会"饱和"，梯度为零，学习完全停滞——loss 不动
+2. **死亡的 ReLU**：如果 ReLU 神经元在初始化时对所有数据都输出负值，梯度为 0，这个神经元就"死了"
+3. **梯度流异常**：门控单元（如 sigmoid gate）会把梯度乘以接近 0 的值，导致上游梯度被"杀死"
+
+**结论**：如果不理解反向传播，当训练出问题时（并且一定会出问题），你无法有效地 debug。理解反向传播就像理解引用和值类型——不见得天天用，但知道为什么崩溃能省下大量时间。
+
+---
+
 # Yes you should understand backprop
 
 - **Author:** Andrej Karpathy

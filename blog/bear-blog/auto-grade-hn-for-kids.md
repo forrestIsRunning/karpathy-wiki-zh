@@ -1,4 +1,4 @@
-# Auto-grading decade-old Hacker News discussions — 三岁小孩版
+# Auto-grading decade-old Hacker News discussions — 
 
 Karpathy 叔叔发现了一件好玩的事情。他看到了 10 年前网上人们讨论科技新闻的留言，就在想："哇，这些人当时猜对了没有呢？" 就像你 3 岁时猜"明天会不会下雨"，现在回头看就知道猜得对不对啦！
 

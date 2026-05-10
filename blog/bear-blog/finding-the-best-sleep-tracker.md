@@ -4,6 +4,33 @@ date: 2025-03-24
 url: https://karpathy.bearblog.dev/finding-the-best-sleep-tracker/
 ---
 
+**中文翻译**
+
+Karpathy 花了 2 个月测试了 4 款睡眠追踪设备：Oura 戒指、Whoop 手环、8Sleep 床垫和 Apple Watch + AutoSleep。
+
+**结果**：
+- **Oura** 和 **Whoop** 是一流产品。两者评分高，与实际睡眠感受高度相关。Oura 评分更严格（从不给满分），Whoop 则经常给 100 分。
+- **8Sleep** 表现一般。
+- **Apple Watch + AutoSleep** 表现最差——评分几乎随机，与起床感受没什么关系。
+
+**相关性分析**：
+- Whoop vs Oura 相关性最高 (0.65)
+- Whoop vs AutoSleep 几乎不相关 (0.14)
+
+**心率数据**：三个设备（Oura、Whoop、AutoSleep）在夜间心率测量上高度一致。有趣的是，静息心率与睡眠评分之间的相关性很弱。
+
+**2 个月的效果**：他的静息心率从 ~51 bpm 降到 ~48 bpm，心率变异性从 ~49 升到 ~54——运动带来的正面效果。
+
+**购买建议**：
+- 选 Whoop：9.5/10，可靠、方便、App 功能丰富
+- 选 Oura：10/10 追踪精度，但戒指形态不太方便
+
+**结论**：睡眠质量直接影响第二天的工作效率。低分时缺少动力和创造力，高分时能高效工作 14 小时。
+
+---
+
+
+
 Finding the Best Sleep Tracker
 
 *24 Mar, 2025*

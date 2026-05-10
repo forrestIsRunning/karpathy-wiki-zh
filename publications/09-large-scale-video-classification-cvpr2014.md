@@ -8,21 +8,22 @@
 - **URL:** https://cs.stanford.edu/people/karpathy/deepvideo/
 - **Dataset:** https://github.com/gtoderici/sports-1m-dataset
 
-## Abstract
-Convolutional Neural Networks (CNNs) have been established as a powerful class of models for image recognition problems. Encouraged by these results, we provide an extensive empirical evaluation of CNNs on large-scale video classification using a new dataset of 1 million YouTube videos belonging to 487 classes. We study multiple approaches for extending the connectivity of a CNN in time domain to take advantage of local spatio-temporal information and suggest a multiresolution, foveated architecture as a promising way of speeding up the training.
+## 摘要
 
-Our best spatio-temporal networks display significant performance improvements compared to strong feature-based baselines (55.3% to 63.9%), but only a surprisingly modest improvement compared to single-frame models (59.3% to 60.9%). We further study the generalization performance of our best model by retraining the top layers on the UCF-101 Action Recognition dataset and observe significant performance improvements compared to the UCF-101 baseline model (63.3% up from 43.9%).
+卷积神经网络（CNN）已经被证明是解决图像识别问题的强大模型。受这些结果的鼓舞，我们利用一个包含 100 万个 YouTube 视频（分属 487 个类别）的新数据集，对 CNN 在大规模视频分类上的应用进行了广泛的实证评估。我们研究了多种在时间域上扩展 CNN 连接性的方法，以利用局部时空信息，并提出了一种多分辨率、中央凹式架构，作为加速训练的有效方案。
 
-## Sports-1M Dataset
-- 1,133,158 video URLs annotated automatically with 487 Sports labels using the YouTube Topics API.
-- Licensed under Creative Commons 3.0.
-- Code and dataset available on GitHub.
+我们最佳的时空网络相比基于强特征提取的基线方法表现出了显著提升（从 55.3% 提升至 63.9%），但与单帧模型相比仅取得了一般性的改进（从 59.3% 提升至 60.9%），这一结果令人惊讶。我们进一步通过在 UCF-101 动作识别数据集上重新训练最高层来研究所提最佳模型的泛化性能，并观察到了相比 UCF-101 基线模型的显著提升（从 43.9% 提升至 63.3%）。
 
-## Key Findings
-- CNN-based video classification with spatio-temporal fusion.
-- Surprisingly modest improvement over single-frame models (only +1.6%), suggesting frame-level appearance already captures significant signal.
-- Multi-resolution foveated architecture for efficient training.
-- Good transfer learning performance on UCF-101.
+## Sports-1M 数据集
+- 1,133,158 个视频 URL，使用 YouTube Topics API 自动标注了 487 个运动标签。
+- 基于 Creative Commons 3.0 许可。
+- 代码和数据集已在 GitHub 上发布。
+
+## 关键发现
+- 基于 CNN 的带有时空融合的视频分类。
+- 相比单帧模型的提升幅度小得出奇（仅 +1.6%），这表明单帧层面的外观信息已经包含了大量判别信号。
+- 用于高效训练的多分辨率中央凹式架构。
+- 在 UCF-101 上良好的迁移学习表现。
 
 ## BibTeX
 ```
@@ -34,5 +35,5 @@ Our best spatio-temporal networks display significant performance improvements c
 }
 ```
 
-## 三岁版
-这个研究教电脑"看视频认东西"。他们给电脑看了一百万个YouTube视频（全是运动类的），电脑要认出视频里是"打篮球"还是"游泳"。结果发现，电脑光看视频里的一帧画面（一张快照）就已经很厉害了，多看几帧帮助不大。就像让小朋友光看一张照片就能猜到是在做什么运动。
+## 解读
+这项研究教电脑"看视频认东西"。他们给电脑看了一百万个 YouTube 视频（全是运动类的），电脑要认出视频里是"打篮球"还是"游泳"。结果发现，电脑光看视频里的一帧画面（一张快照）就已经很厉害了，多看几帧帮助不大。就像让小朋友仅凭一张照片就能猜到是在做什么运动。

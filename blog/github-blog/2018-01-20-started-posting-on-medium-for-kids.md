@@ -1,4 +1,4 @@
-# Karpathy 叔叔搬家到 Medium 了 -- 三岁小孩版
+# Karpathy 叔叔搬家到 Medium 了 -- 
 
 Karpathy 叔叔去了 Tesla 工作之后，就没时间在博客上写长文章了。
 

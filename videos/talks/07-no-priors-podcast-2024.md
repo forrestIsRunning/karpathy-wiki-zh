@@ -31,7 +31,7 @@ Show Notes:
 41:26 Eureka Labs
 42:25 What young people study to prepare for the future
 
-## 三岁版
+## 通俗解释
 
 这是一个播客访谈，安德烈跟两位主持人聊了很多关于自动驾驶和 AI 的话题。他比较了特斯拉和 Waymo（谷歌的自动驾驶公司）做自动驾驶的不同方法——就像两个小朋友用不同的方法搭积木。他还聊到了特斯拉的机器人 Optimus、AI 发展遇到的困难，以及他正在做的 AI 教育项目 Eureka Labs。最后他给年轻人提了建议：未来应该学什么才能跟上 AI 时代的步伐。
 

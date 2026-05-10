@@ -3,16 +3,14 @@
 **CVPR 2015 (Oral)**
 :link: http://cs.stanford.edu/people/karpathy/deepimagesent/
 
-## 三岁版
-
 > 电脑看一张照片，然后写出一句话描述它。
 > 比如看到一张"狗在草地上跑"的照片，电脑写出 "A dog running on grass"。
-> 这看起来简单，但对电脑来说超级难——它要先认出"这是狗"、"这是草地"、"狗在跑",然后用正确的语法说出来。
+> 这看起来简单，但对电脑来说超级难——它要先认出"这是狗"、"这是草地"、"狗在跑"，然后用正确的语法说出来。
 
 ## 核心贡献
 
 1. **多模态对齐**：在图片和文字之间建立对应关系——把图片的区域和文字的片段"对齐"
-2. **双向映射**：从图片→文字（看图说话）,以及文字→图片（用文字找图）
+2. **双向映射**：从图片→文字（看图说话），以及文字→图片（用文字找图）
 3. **深度神经网络**：用 CNN 处理图片，用 RNN 处理文字，组合成一个端到端系统
 
 ## 影响
@@ -25,8 +23,6 @@
 
 **CVPR 2016 (Oral)**
 :link: https://cs.stanford.edu/people/karpathy/densecap/
-
-## 三岁版
 
 > Deep Visual-Semantic Alignments 是"给整张图写一句话"。
 > DenseCap 更进一步——给图里的**每一个重要区域**都写一句话。
@@ -45,8 +41,6 @@
 **CVPR 2014 (Oral)**
 :link: https://cs.stanford.edu/people/karpathy/deepvideo/
 
-## 三岁版
-
 > 之前的 CNN 只看单张图片，这篇论文让 CNN 看视频。
 > 视频 = 很多张快速的图片连在一起播放。
 > 这篇论文用 YouTube 的海量视频训练 AI，让它学会识别视频里在发生什么。
@@ -64,8 +58,6 @@
 **ICLR 2017**
 :link: https://openreview.net/pdf?id=BJrFC6ceg
 
-## 三岁版
-
 > PixelCNN 是一个能"画图"的 AI —— 它从左上角的第一个像素开始，一个像素一个像素地画出整张图。
 > PixelCNN++ 改进了它，让画出来的图更清晰、训练更快。
 
@@ -75,8 +67,6 @@
 
 **ICML 2017**
 :link: http://proceedings.mlr.press/v70/shi17a/shi17a.pdf
-
-## 三岁版
 
 > 让 AI 像人一样使用网站——点按钮、填表格、选选项。
 > 就像你教一个机器人怎么在网上订机票。
@@ -88,8 +78,6 @@
 **ICLR 2016 Workshop**
 :link: http://arxiv.org/abs/1506.02078
 
-## 三岁版
-
 > 打开 RNN（循环神经网络）的"黑盒子"，看看里面到底是怎么工作的。
 > 就像拆开一个玩具看看里面的齿轮怎么转动。
 
@@ -99,8 +87,6 @@
 
 **Stanford 2016**
 :link: https://cs.stanford.edu/people/karpathy/main.pdf
-
-## 三岁版
 
 > Karpathy 的博士论文，总结了他所有关于"让 AI 看懂图片并用语言描述"的研究。
 > 就像把所有积木搭在一起，展示最终能搭出什么。

@@ -1,3 +1,19 @@
+---
+
+**中文翻译**
+
+Karpathy 做了一个有趣的实验：将 ICLR 2017 会议的论文评审结果（oral/poster/workshop/reject）与 arxiv-sanity 平台上每篇论文被加入"图书馆"的次数进行交叉对比。
+
+ICLR 2017 共有 491 篇提交，其中 15 篇 oral（3%）、183 篇 poster（37.3%）、48 篇 workshop、245 篇被拒。
+
+arxiv-sanity 则有 3195 个用户，共收录 55,671 篇论文。
+
+**实验结果**：大多数 oral 论文在 arxiv-sanity 上也有很高的"收藏"计数。有些被拒论文在 arxiv-sanity 上却很受欢迎——这是"民科"和"学院派"之间的差异。Karpathy 认为 arxiv-sanity 代表"人民的选择"，两者的投票机制不同但都各有价值。
+
+总体来说 top-down（会议评审）和 bottom-up（大众选择）有一定相关性，但也存在有趣的偏差。
+
+---
+
 # ICLR 2017 vs arxiv-sanity
 
 - **Author:** Andrej Karpathy

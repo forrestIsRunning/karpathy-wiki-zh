@@ -2,7 +2,7 @@
 
 > 来自 https://cs.stanford.edu/people/karpathy/advice.html — 给想考好的学生的指南
 
-## 三岁版
+## 通俗解释
 
 Andrej 在斯坦福成绩很好，他分享了自己考高分的秘方。简单来说：
 

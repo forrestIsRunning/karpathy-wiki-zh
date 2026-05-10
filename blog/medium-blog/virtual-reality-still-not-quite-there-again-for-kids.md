@@ -1,4 +1,4 @@
-# Virtual Reality: still not quite there, again — 三岁小孩版
+# Virtual Reality: still not quite there, again — 
 
 Karpathy 叔叔从小就对虚拟现实（VR）特别兴奋。他小时候第一次戴 VR 头盔，虽然画面很模糊、还让人头晕，但他觉得："这就是未来！"
 

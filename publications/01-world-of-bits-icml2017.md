@@ -9,13 +9,14 @@
 - **URL:** http://proceedings.mlr.press/v70/shi17a.html
 - **PDF:** http://proceedings.mlr.press/v70/shi17a/shi17a.pdf
 
-## Abstract
-While simulated game environments have greatly accelerated research in reinforcement learning, existing environments lack the open-domain realism of tasks in computer vision or natural language processing. The paper introduces World of Bits (WoB), a platform designed to advance reinforcement learning research in open-domain, realistic web environments. WoB requires agents to complete real internet tasks using low-level keyboard and mouse actions. Two key challenges are addressed: (1) curating a large, diverse set of web-based tasks, and (2) ensuring well-defined reward structures and reproducibility despite the web's transient nature. The methodology involves crowdworkers creating tasks from natural language questions and demonstrating solutions on real websites; HTTP traffic is cached to create a reproducible offline approximation of the web site. The paper demonstrates that agents trained through behavioral cloning and reinforcement learning can successfully complete a range of web-based tasks.
+## 摘要
 
-## Notes
-- Introduces a platform for web-based RL agents interacting with real websites via keyboard and mouse actions.
-- Uses HTTP caching for reproducibility.
-- Combines behavioral cloning and RL for agent training.
+虽然模拟游戏环境极大地推动了强化学习研究的发展，但现有环境缺乏计算机视觉或自然语言处理中那种开放领域的真实感。本文介绍了 World of Bits (WoB)，一个旨在推动开放域真实网页环境中强化学习研究的平台。WoB 要求智能体使用底层的键盘和鼠标操作来完成真实的互联网任务。本文解决了两大关键挑战：(1) 策划大量多样化的网页任务；(2) 尽管网页具有 transient 特性，仍要确保明确的奖励结构和可重复性。其方法是通过众包工作者根据自然语言问题创建任务，并在真实网站上演示解决方案；通过缓存 HTTP 流量来创建可重复的网页离线近似版本。实验表明，通过行为克隆和强化学习训练的智能体能够成功完成一系列网页任务。
 
-## 三岁版
-这个研究做了一个叫"World of Bits"的玩具，教电脑像小朋友一样上网。电脑要学会自己用鼠标点、用键盘打字，完成在网上买东西或者查资料的任务。就像教一个三岁小孩自己上网买东西一样，只不过是对电脑说的。
+## 笔记
+- 提出了一个基于网页的强化学习平台，允许智能体通过键盘和鼠标操作与真实网站交互。
+- 利用 HTTP 缓存保证可重复性。
+- 结合行为克隆和强化学习进行智能体训练。
+
+## 解读
+这项研究构建了一个名为"World of Bits"的平台，教电脑像人类一样上网。电脑需要学会自己用鼠标点击、用键盘打字，完成在网上购物或查找资料的任务。就像教一个初学者自己上网操作一样，只不过是对电脑而言的。

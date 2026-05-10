@@ -1,3 +1,29 @@
+---
+
+**中文翻译**
+
+CS231n 2016 年冬季课程 YouTube 播放列表（Karpathy、Fei-Fei Li、Justin Johnson 授课），共 15 个视频，约 18.5 小时。
+
+涵盖主题：
+1. 课程介绍和历史背景
+2. 数据驱动方法、kNN、线性分类
+3. 线性分类 2、优化
+4. 反向传播、神经网络
+5. 神经网络训练
+6. 卷积网络入门
+7. 卷积神经网络深入
+8. 目标定位和检测
+9. 可视化、Deep Dream、神经风格迁移、对抗样本
+10. RNN、图像描述、LSTM
+11. ConvNets 实践
+12. 深度学习库
+13. 分割、注意力机制
+14. 视频和无监督学习
+15. Google 的 Jeff Dean 特邀讲座
+
+---
+
+
 # CS231n Lecture Videos (Winter 2016) - YouTube Playlist
 
 **Playlist URL:** https://www.youtube.com/playlist?list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC

@@ -10,6 +10,8 @@
 ## Description
 
 The Andrej Karpathy episode. During this interview, Andrej explains why reinforcement learning is terrible (but everything else is much worse), why AGI will just blend into the previous ~2.5 centuries of 2% GDP growth, why self driving took so long to crack, and what he sees as the future of education. It was a pleasure chatting with him.
+> **中文说明：** Karpathy 与 Dwarkesh 的深度对话，讨论 AI 未来、开源与闭源博弈，以及他为什么离开大公司做教育。
+
 
 𝐄𝐏𝐈𝐒𝐎𝐃𝐄 𝐋𝐈𝐍𝐊𝐒
 Transcript: https://dwarkesh.substack.com/p/andre...
@@ -23,7 +25,7 @@ Google's Veo 3.1 update is a notable improvement to an already great model. Veo 
 
 To sponsor a future episode, visit https://dwarkesh.com/advertise
 
-## 三岁版
+## 通俗解释
 
 这是一次访谈节目，安德烈跟主持人聊了很多关于人工智能的大问题。他说现在的 AI 其实有点像"召唤鬼魂"——我们知道它很厉害，但不太明白它里面到底是怎么回事。他还说自动驾驶汽车为什么花了那么长时间才做好（因为开车真的很难！），以及未来的教育会变成什么样。他最有意思的一个观点是：未来的超级 AI 可能不会让我们突然变得很富，而是像过去的蒸汽机一样，悄悄地让我们的生活每年都好一点点。
 

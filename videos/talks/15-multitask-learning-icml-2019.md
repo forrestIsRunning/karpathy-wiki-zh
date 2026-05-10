@@ -22,6 +22,6 @@ This talk was part of an ICML 2019 workshop focused on real-world challenges in 
 
 [View Talk on SlidesLive](https://slideslive.com/38917690/multitask-learning-in-the-wilderness)
 
-## 三岁版
+## 通俗解释
 
 这是安德烈在 ICML（一个顶级的机器学习大会）上做的演讲，讲的是"多任务学习"——就是怎么让一个 AI 同时学会做好几件事。他举了特斯拉自动驾驶的例子：一辆车需要同时识别路上的行人、看懂路标、判断距离、预测其他车的动向……就像一个人的大脑要同时处理好多事情。他发现学术界的方法在现实中不太管用，所以分享了很多他们在特斯拉实际工作中摸索出来的"野路子"经验。

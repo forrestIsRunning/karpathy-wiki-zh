@@ -1,4 +1,4 @@
-# Sequoia Ascent 2026 — 三岁小孩版
+# Sequoia Ascent 2026 — 
 
 Karpathy 叔叔在 Sequoia 大会上讲了他对 AI 的最新想法。他说，2025 年 12 月是个转折点——从那时候开始，AI 写代码突然变得很靠谱了，他感觉自己以前学的东西都有点跟不上了！
 

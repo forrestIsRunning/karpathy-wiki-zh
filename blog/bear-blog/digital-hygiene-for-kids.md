@@ -1,4 +1,4 @@
-# Digital hygiene — 三岁小孩版
+# Digital hygiene — 
 
 Karpathy 叔叔教我们在网上怎么保护自己。就像我们要洗手洗澡一样，在网上的"数字卫生"也很重要哦！
 

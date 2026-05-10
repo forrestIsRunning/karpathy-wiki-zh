@@ -1,4 +1,4 @@
-# 看！Hacker News 上发生了什么 -- 三岁小孩版
+# 看！Hacker News 上发生了什么 -- 
 
 Karpathy 叔叔做了一个小实验：他让电脑每分钟都去一个叫 Hacker News 的网站"偷看"一次，看看大家都在聊什么。
 

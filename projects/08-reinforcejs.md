@@ -4,25 +4,27 @@
 **Stars:** 1.5k | **Forks:** 354 | **Language:** HTML (65.4%), JavaScript (34.6%)
 **License:** MIT
 
-## Description
+## 项目介绍
 
-A Reinforcement Learning library that implements several common RL algorithms, all with web demos. Algorithms run in the browser with no installation required.
+一个强化学习库，实现了多种常见的强化学习算法，全部带有网页演示。算法在浏览器中运行，无需安装任何软件。
 
-### Included Algorithms
+REINFORCEjs 是教电脑"自己学会玩游戏"的工具。就像教小狗学会坐下就给零食一样，电脑做对了就"奖励"它，做错了就"扣分"，慢慢它就学会怎么玩得更好。一切都在浏览器里运行，不用装任何东西。
 
-- **Dynamic Programming** methods — for finite state/action spaces with environment dynamics
-- **(Tabular) Temporal Difference Learning** — SARSA/Q-Learning
-- **Deep Q-Learning** — Q-Learning with function approximation using Neural Networks
-- **Stochastic/Deterministic Policy Gradients** and Actor Critic architectures for continuous action spaces (noted as "very alpha, likely buggy or at the very least finicky and inconsistent")
+### 包含的算法
 
-## Code Structure
+- **动态规划（Dynamic Programming）**方法——适用于已知环境动态的有限状态/动作空间
+- **（表格型）时序差分学习（Temporal Difference Learning）**——SARSA/Q-Learning
+- **深度 Q 学习（Deep Q-Learning）**——使用神经网络进行函数近似的 Q-Learning
+- **随机/确定性策略梯度（Stochastic/Deterministic Policy Gradients）**以及适用于连续动作空间的 Actor-Critic 架构（标注为"非常早期，很可能有 bug，或者至少很不稳定且不一致"）
 
-Two global variables are exported: `R` and `RL`.
+## 代码结构
 
-- `R` — utilities for building expression graphs (e.g. LSTMs) and performing automatic backpropagation. Fork of Karpathy's other project, [recurrentjs](https://github.com/karpathy/recurrentjs).
-- `RL` — holds algorithm implementations: `RL.DPAgent`, `RL.TDAgent`, `RL.DQNAgent`
+导出两个全局变量：`R` 和 `RL`。
 
-## Example Usage
+- `R`——用于构建表达式图（例如 LSTM）和执行自动反向传播的工具。来自 Karpathy 的另一个项目 [recurrentjs](https://github.com/karpathy/recurrentjs) 的分支。
+- `RL`——包含算法实现：`RL.DPAgent`、`RL.TDAgent`、`RL.DQNAgent`
+
+## 使用示例
 
 ```javascript
 var env = {};
@@ -33,22 +35,18 @@ var spec = { alpha: 0.01 };
 agent = new RL.DQNAgent(env, spec);
 
 setInterval(function(){
-  var action = agent.act(s); // s is an array of length 8
-  // execute action in environment and get the reward
-  agent.learn(reward); // agent improves its Q,policy,model, etc.
+  var action = agent.act(s); // s 是一个长度为 8 的数组
+  // 在环境中执行动作并获得奖励
+  agent.learn(reward); // agent 改进它的 Q 值、策略、模型等
 }, 0);
 ```
 
-Full documentation and demos available on the [main webpage](https://cs.stanford.edu/people/karpathy/reinforcejs/).
+完整的文档和演示可在[主页面](https://cs.stanford.edu/people/karpathy/reinforcejs/)上找到。
 
-## License
+## 许可证
 
 MIT
 
 ---
 
-*Fetched from https://github.com/karpathy/reinforcejs on 2026-05-09*
-
-## 三岁版
-
-REINFORCEjs 是教电脑"自己学会玩游戏"的工具。就像你教小狗学会坐下就给零食一样，电脑做对了就"奖励"它，做错了就"扣分"，慢慢它就学会怎么玩得更好。一切都在浏览器里运行，不用装任何东西。
+*数据获取自 https://github.com/karpathy/reinforcejs (2026-05-09)*

@@ -77,7 +77,7 @@ Medium:   / lexfridman  
 Reddit:   / lexfridman  
 Support on Patreon:   / lexfridman  
 
-## 三岁版
+## 通俗解释
 
 这是一次长达 4 小时的深度访谈，安德烈和主持人 Lex Fridman 几乎什么都聊了！他们聊了神经网络（电脑模拟大脑）、外星人、特斯拉的自动驾驶、机器人 Optimus、还有未来人类会变成什么样。安德烈分享了他离开 Tesla 后的想法、给年轻人的建议、还推荐了几本好书。就像跟一个聪明朋友在咖啡厅里聊了一下午天，话题从天上的星星到脚下的路，无所不谈。  
 

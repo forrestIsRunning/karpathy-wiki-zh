@@ -1,4 +1,4 @@
-# Finding the Best Sleep Tracker — 三岁小孩版
+# Finding the Best Sleep Tracker — 
 
 Karpathy 叔叔想睡个好觉。但是怎么知道自己睡得好不好呢？他买了 4 个不同的"睡眠手表"来测试！
 

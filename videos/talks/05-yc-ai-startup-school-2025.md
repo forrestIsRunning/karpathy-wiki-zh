@@ -10,6 +10,8 @@
 ## Description
 
 Andrej Karpathy's keynote on June 17, 2025 at AI Startup School in San Francisco. Slides provided by Andrej: https://drive.google.com/file/d/1a0h1...
+> **中文说明：** Karpathy 在 YC 的演讲，讨论大语言模型对创业的影响，以及创业者应关注的方向。
+
 
 Chapters:
 00:00 - Intro
@@ -49,7 +51,7 @@ Vibe coding MenuGen (retrospective) https://karpathy.bearblog.dev/vibe-co...
 Apply to Y Combinator: https://ycombinator.com/apply
 Work at a startup: https://workatastartup.com
 
-## 三岁版
+## 通俗解释
 
 这个视频是安德烈在 Y Combinator（一个很有名的创业公司"孵化器"）做的演讲。他说现在的软件正在经历第三次大变革——以前我们是写代码告诉电脑做什么，现在可以用日常语言跟电脑说话了！他把这个叫做"软件 3.0"。他还讲了一个有趣的概念叫"氛围编程"（Vibe Coding），意思是以后即使不太会写代码的人，也能用自然的语言让 AI 帮忙做出软件来。他鼓励大家说，我们现在还处在 AI 时代的早期，就像 1960 年代的计算机一样，有巨大的机会等着我们去创造。
 

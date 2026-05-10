@@ -1,9 +1,6 @@
-# 给三岁小孩讲 Andrej Karpathy
+# Andrej Karpathy 的故事——用最简单的话讲清楚
 
-> 注意：以下内容由 AI 整理自 karpathy.ai 及其所有链接资源。
-> 如果你是三岁小孩，让你爸爸妈妈读给你听。
-
----
+> 以下内容由 AI 整理自 karpathy.ai 及其所有链接资源。用最简单的话解释 Andrej Karpathy 是谁、做了什么、想了什么。
 
 ## 他是谁？
 

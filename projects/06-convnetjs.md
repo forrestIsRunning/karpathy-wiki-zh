@@ -1,48 +1,46 @@
-# ConvNetJS: Deep Learning in your Browser
+# ConvNetJS：在你的浏览器里做深度学习
 
 **GitHub:** https://github.com/karpathy/convnetjs
 **Website:** https://cs.stanford.edu/people/karpathy/convnetjs/
 **Stars:** 11.2k | **Forks:** 2.1k | **Language:** JavaScript
 **License:** MIT
 
-## Description
+## 项目介绍
 
-ConvNetJS is a Javascript library for training Deep Learning models (Neural Networks) entirely in your browser. Open a tab and you're training. No software requirements, no compilers, no installations, no GPUs, no sweat.
+ConvNetJS 是一个完全在浏览器中训练深度学习模型（神经网络）的 JavaScript 库。打开一个标签页就能开始训练。不需要任何软件、编译器、安装步骤、GPU，完全零门槛。
 
-Created by @karpathy during his PhD at Stanford. The library has been extended by community contributions.
+由 @karpathy 在斯坦福大学读博期间创建。社区贡献扩展了该库的功能。
 
-## Browser Demos
+你不需要下载任何软件，打开网页就能教电脑认数字、认图片。就像在网页上玩一个会自己变聪明的游戏，看着电脑一点点学会新本领。
 
-- Classify MNIST digits with a Convolutional Neural Network
-- Classify CIFAR-10 with Convolutional Neural Network
-- Interactively classify toy 2-D data with a Neural Network
-- Interactively regress toy 1-D data
-- Train an MNIST digits Autoencoder
-- Reinforcement Learning with Deep Q Learning
-- Neural Network "paints" an image
-- Comparing SGD/Adagrad/Adadelta
-- Fully Automatic Blackbox Learning with MagicNet Class
+## 浏览器演示
 
-## Features
+- 用卷积神经网络（CNN）识别 MNIST 手写数字
+- 用卷积神经网络（CNN）分类 CIFAR-10 图片
+- 交互式地用神经网络分类二维小玩具数据
+- 交互式地对一维数据进行回归
+- 训练 MNIST 数字自动编码器
+- 用深度 Q 学习做强化学习
+- 神经网络"画"出一幅图片
+- 比较 SGD/Adagrad/Adadelta 优化器
+- 使用 MagicNet 类全自动黑箱学习
 
-- Common Neural Network modules (fully connected layers, non-linearities)
-- Classification (SVM/Softmax) and Regression (L2) cost functions
-- Convolutional Networks for image processing
-- Experimental Reinforcement Learning module based on Deep Q Learning
-- Available on npm as `convnetjs` for use in Node.js
+## 功能特性
 
-## Getting Started
+- 常用神经网络模块（全连接层、非线性激活函数）
+- 分类（SVM/Softmax）和回归（L2）损失函数
+- 用于图像处理的卷积网络
+- 基于深度 Q 学习的实验性强化学习模块
+- 可通过 npm 安装为 `convnetjs`，用于 Node.js
 
-Head to the [Getting Started](https://cs.stanford.edu/people/karpathy/convnetjs/start.html) tutorial. Full [Documentation](https://cs.stanford.edu/people/karpathy/convnetjs/docs.html) is also available.
+## 快速上手
 
-## License
+前往[快速入门](https://cs.stanford.edu/people/karpathy/convnetjs/start.html)教程。完整[文档](https://cs.stanford.edu/people/karpathy/convnetjs/docs.html)也已提供。
+
+## 许可证
 
 MIT
 
 ---
 
-*Fetched from https://cs.stanford.edu/people/karpathy/convnetjs/ on 2026-05-09*
-
-## 三岁版
-
-convnetjs 是"在浏览器里学AI"的神奇工具。你不需要下载任何软件，打开网页就能教电脑认数字、认图片。就像你在网页上玩一个会自己变聪明的游戏，看着电脑一点点学会新本领。
+*数据获取自 https://cs.stanford.edu/people/karpathy/convnetjs/ (2026-05-09)*

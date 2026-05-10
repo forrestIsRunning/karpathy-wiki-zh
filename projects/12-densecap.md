@@ -1,33 +1,35 @@
-# DenseCap: Fully Convolutional Localization Networks for Dense Captioning
+# DenseCap: 用于密集描述的全卷积定位网络
 
 **Website:** https://cs.stanford.edu/people/karpathy/densecap/
 **GitHub:** https://github.com/jcjohnson/densecap
-**Authors:** Justin Johnson*, Andrej Karpathy*, Fei-Fei Li (* equal contribution)
-**Conference:** CVPR 2016 (Oral)
+**作者:** Justin Johnson*, Andrej Karpathy*, Fei-Fei Li (* 同等贡献)
+**会议:** CVPR 2016 (口头报告)
 
-## Abstract
+## 摘要
 
-We introduce the dense captioning task, which requires a computer vision system to both localize and describe salient regions in images in natural language. The dense captioning task generalizes object detection when the descriptions consist of a single word, and Image Captioning when one predicted region covers the full image.
+我们提出了密集描述（dense captioning）任务，这要求计算机视觉系统能够同时定位并用自然语言描述图像中的显著区域。当描述仅包含单个词时，密集描述任务泛化为目标检测；当预测区域覆盖整张图像时，则泛化为图像描述（Image Captioning）。
 
-To address the localization and description task jointly we propose a Fully Convolutional Localization Network (FCLN) architecture that processes an image with a single, efficient forward pass, requires no external region proposals, and can be trained end-to-end with a single round of optimization. The architecture is composed of a Convolutional Network, a novel dense localization layer, and a Recurrent Neural Network language model that generates the label sequences.
+为了联合解决定位和描述任务，我们提出了一种全卷积定位网络（FCLN）架构，该架构通过单次高效的前向传播处理图像，不需要外部区域建议，并且可以通过一轮优化进行端到端训练。该架构由卷积网络、新型密集定位层和生成标签序列的循环神经网络语言模型组成。
 
-We evaluate our network on the [Visual Genome dataset](https://visualgenome.org/), which comprises 94,000 images and 4,100,000 region-grounded captions. We observe both speed and accuracy improvements over baselines based on current state of the art approaches in both generation and retrieval settings.
+我们在 [Visual Genome 数据集](https://visualgenome.org/) 上评估了我们的网络，该数据集包含 94,000 张图像和 4,100,000 条基于区域的描述。在生成和检索两种设置下，我们都观察到相比基于当前最先进方法的基线，速度和精度都有提升。
 
-## Code and Resources
+DenseCap 是"看图说话升级版"。neuraltalk 只能给整张图写一句话，但 DenseCap 能在一张图里找出好多好多东西，然后给每个东西都配一句话。比如一张有很多动物的图，它能说出"这里有只长颈鹿"、"那边有只斑马"、"树上还有一只小鸟"。就像一个很细心的导游！
 
-Available on [GitHub](https://github.com/jcjohnson/densecap):
-- Training/test code (Torch/Lua)
-- Pretrained model
-- Live webcam demo
-- Dense Captioning metric evaluation code
+## 代码和资源
 
-## Example Results
+可在 [GitHub](https://github.com/jcjohnson/densecap) 上获取：
+- 训练/测试代码（Torch/Lua）
+- 预训练模型
+- 实时网络摄像头演示
+- 密集描述评估指标代码
 
-### Dense Captioning
-Predictions from the model, cherry-picked for high-resolution, rich scenes. Browse the full results on the interactive predictions visualizer page (30MB) — visualizer code included on GitHub.
+## 示例结果
 
-### Region Search
-The DenseCap model can also be run "backwards" to search for text queries. For example, take descriptions such as "head of a giraffe" and look through images to find regions likely to generate that description. This does not merely caption images and look for string overlaps; it forwards the model and checks the probability of generating the query conditioned on every detected region of interest.
+### 密集描述
+模型给出的预测结果，精心挑选的高分辨率、内容丰富场景。在交互式预测可视化页面（30MB）上浏览完整结果——可视化代码包含在 GitHub 中。
+
+### 区域搜索
+DenseCap 模型也可以"反向"运行来搜索文本查询。例如，输入像"长颈鹿的头"这样的描述，模型会在图像中寻找可能生成该描述的区域。这不仅仅是给图像配文字然后找字符串重叠；而是通过前向模型，检查在每个检测到的感兴趣区域上生成查询的概率。
 
 ## BibTeX
 
@@ -40,14 +42,10 @@ The DenseCap model can also be run "backwards" to search for text queries. For e
 }
 ```
 
-## Acknowledgements
+## 致谢
 
-NVIDIA Corporation for GPU donation. Supported by ONR MURI grant, Intel research grant, and NSF ISS-1115313.
+感谢 NVIDIA Corporation 捐赠 GPU。本研究得到 ONR MURI 资助、Intel 研究资助和 NSF ISS-1115313 的支持。
 
 ---
 
-*Fetched from https://cs.stanford.edu/people/karpathy/densecap/ on 2026-05-09*
-
-## 三岁版
-
-DenseCap 是"看图说话升级版"。neuraltalk 只能给整张图写一句话，但 DenseCap 能一张图里找出好多好多东西，然后给每个东西都配一句话。比如一张有很多动物的图，它能说出"这里有只长颈鹿"、"那边有只斑马"、"树上还有一只小鸟"。就像一个很细心的导游！
+*数据获取自 https://cs.stanford.edu/people/karpathy/densecap/ (2026-05-09)*

@@ -1,4 +1,4 @@
-# Power to the people — 三岁小孩版
+# Power to the people — 
 
 Karpathy 叔叔发现一件很酷的事情。以前厉害的科技都是先从军队和大公司开始用的，很久以后普通人才用得上。但是 AI 不一样！
 

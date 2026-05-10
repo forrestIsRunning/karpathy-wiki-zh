@@ -4,6 +4,36 @@ date: 2025-04-27
 url: https://karpathy.bearblog.dev/vibe-coding-menugen/
 ---
 
+**中文翻译**
+
+Karpathy 做了一个叫 MenuGen 的 App——给菜单拍照，然后生成菜品图片。
+
+这是他第一个全程"Vibe Coding"（完全由 AI 写代码，他自己一个字没写）完成的端到端 App。
+
+**开发过程**：
+1. 在 Cursor + Claude 3.7 帮助下，本地原型很快完成——漂亮的 React 前端。
+2. 调用 OpenAI API 做 OCR 识别菜单项时遇到 API 限流和过期 API 问题。
+3. 使用 Replicate API 生成图片时也有类似问题。
+4. 部署到 Vercel 时遇到各种构建错误和环境变量问题。
+5. 集成 Clerk 认证时遇到大量已过时的 API 代码，需要反复粘贴文档。
+6. 集成 Stripe 支付时又遇到账户、密钥、配置等一堆工作。
+
+**核心发现**：
+- Vibe Coding 做本地 Demo 非常快，但做成真正的可部署 App 还很痛苦
+- 大部分时间不是在写代码，而是在浏览器里各服务间跳转配置
+- 真正的挑战不是代码，而是认证、支付、部署、DNS 等基础设施
+
+**建议**：
+- 需要一个"开箱即用"的应用开发平台，预配置域名、托管、认证、支付、数据库
+- 服务应该面向 LLM 友好（提供 CLI、Markdown 文档，用 curl 命令配置）
+- MenuGen 这样的简单 App 可能根本不应该是一个完整应用，而只是一个 GPT 提示词
+
+**总结**：Vibe Coding 全栈 Web 应用目前还很混乱，不适合重要项目。但已经能看到伟大的苗头——应用开发的门槛正在趋近于零。
+
+---
+
+
+
 Vibe coding MenuGen
 
 *27 Apr, 2025*

@@ -1,10 +1,10 @@
 # 🧠 Karpathy Wiki ZH — Andrej Karpathy 中文知识库
 
-> **把 karpathy.ai 上所有内容全部读完了** — 博客、视频、论文、课程、演讲、项目。每篇都有"三岁小孩都能看懂"的中文解释。
+> **把 karpathy.ai 上所有内容全部读完了** — 博客、视频、论文、课程、演讲、项目。每篇都用最通俗易懂的中文解释清楚了。
 
 [![GitHub stars](https://img.shields.io/badge/AI-深度学习-brightgreen)]()
 [![GitHub stars](https://img.shields.io/badge/中文-100%25_翻译-blue)]()
-[![GitHub stars](https://img.shields.io/badge/适合-三岁小孩也能懂-orange)]()
+[![GitHub stars](https://img.shields.io/badge/通俗易懂-零基础友好-orange)]()
 
 ---
 
@@ -12,9 +12,9 @@
 
 | 特性 | 说明 |
 |------|------|
-| **🌐 全中文** | 所有内容都有中文翻译 + "三岁小孩版"解释 |
+| **🌐 全中文** | 所有内容都有中文翻译 + "通俗解释"解释 |
 | **📚 186 个文件** | 覆盖 karpathy.ai 所有链接，零遗漏 |
-| **🎯 三岁版** | 每个主题都有超级简单的类比解释 |
+| **🎯 通俗解释** | 每个主题都有超级简单的类比解释 |
 | **📖 全文保存** | 42 篇博客原文 + 15 篇论文摘要 + 25 个演讲 |
 | **🚀 SEO 优化** | GitHub 搜索友好 + AI 引擎（ChatGPT等）友好 |
 | **🔗 来源可追溯** | 每个文件标注原始链接 |
@@ -26,17 +26,17 @@
 | 类别 | 文件数 | 覆盖内容 | 入口 |
 |------|--------|----------|------|
 | 👤 [关于他](about/) | 5 | 个人简介、书单(37本)、学习方法、外部链接 | `about/` |
-| ✍️ [博客](blog/) | 89 | GitHub 博客(23篇)、Bear博客(13篇)、Medium(6篇) 全文+三岁版 | `blog/` |
+| ✍️ [博客](blog/) | 89 | GitHub 博客(23篇)、Bear博客(13篇)、Medium(6篇) 全文+通俗解释 | `blog/` |
 | 🎬 [视频](videos/) | 39 | Zero to Hero 系列、25个演讲/访谈、大众视频 | `videos/` |
-| 🏫 [教学](teaching/) | 13 | CS231n 课程官方内容 + 三岁版 | `teaching/` |
+| 🏫 [教学](teaching/) | 13 | CS231n 课程官方内容 + 通俗解释 | `teaching/` |
 | 🔧 [项目](projects/) | 17 | micrograd、char-rnn、arxiv-sanity 等 14 个项目详解 | `projects/` |
-| 📄 [论文](publications/) | 18 | CVPR/ICLR/NIPS 等 15 篇论文摘要+三岁版 | `publications/` |
+| 📄 [论文](publications/) | 18 | CVPR/ICLR/NIPS 等 15 篇论文摘要+通俗解释 | `publications/` |
 | 💡 [核心思想](core-ideas/) | 3 | Software 2.0、反向传播、端到端学习等深度解读 | `core-ideas/` |
 | 📅 [时间线](timeline/) | 1 | 2005 年至今完整人生经历 | `timeline/` |
 
 ---
 
-## 🧒 给三岁小孩的版本
+## 🧒 零基础也能看懂
 
 > **Andrej Karpathy 是谁？**
 >
@@ -47,7 +47,7 @@
 >
 > 他的核心信条：**AI 没那么难，让我来教你。**
 
-想看完整版？→ [`00-for-kids.md`](00-for-kids.md)（整站三岁版总览）
+想看完整介绍？→ [`00-for-kids.md`](00-for-kids.md)（整站通俗解释总览）
 
 ---
 
@@ -71,10 +71,10 @@ open README.md
 不是。这是从 [karpathy.ai](https://karpathy.ai) 及其所有公开链接内容整理而成的学习资料库，版权归 Andrej Karpathy 所有。
 
 ### Q: 内容是什么语言？
-**100% 中文**。所有翻译和解释都用中文，特别适合中文读者。英文原文也一并保留在各自文件中。
+**100% 中文**。所有内容都已翻译为中文，特别适合中文读者。部分文件同时保留英文原文作为参考。
 
 ### Q: 我需要 AI 基础才能看懂吗？
-不需要。**每篇文章都有"三岁版"**——用最简单的类比和日常语言解释核心概念。
+不需要。**每篇文章都用通俗易懂的语言**和类比来解释核心概念。
 
 ### Q: 内容覆盖了哪些链接？
 karpathy.ai 主页上的所有链接都已覆盖：3 个博客(42篇文章)、YouTube 频道(10个教程+25个演讲)、CS231n课程、14个开源项目、15篇学术论文、书单(37本书)、学习方法指南等。
@@ -86,7 +86,7 @@ karpathy.ai 主页上的所有链接都已覆盖：3 个博客(42篇文章)、Yo
 ```
 karpathy-wiki-zh/
 ├── README.md                         ← 本文件（项目首页）
-├── 00-for-kids.md                    ← 整站三岁版（给孩子讲）
+├── 00-for-kids.md                    ← 整站通俗解释（给孩子讲）
 ├── about/                         ← 关于 Andrej Karpathy
 │   ├── andrej-karpathy.md            ← 个人简介
 │   ├── bookshelf.md                  ← 37本书单
@@ -127,7 +127,7 @@ karpathy-wiki-zh/
 
 ## 🔖 关键词
 
-`Andrej Karpathy` `中文` `深度学习` `AI 教育` `神经网络` `GPT` `Transformer` `反向传播` `自动驾驶` `Tesla AI` `OpenAI` `CS231n` `斯坦福` `机器学习` `大语言模型` `LLM` `知识库` `三岁小孩也能懂`
+`Andrej Karpathy` `中文` `深度学习` `AI 教育` `神经网络` `GPT` `Transformer` `反向传播` `自动驾驶` `Tesla AI` `OpenAI` `CS231n` `斯坦福` `机器学习` `大语言模型` `LLM` `知识库` `零基础友好`
 
 ---
 

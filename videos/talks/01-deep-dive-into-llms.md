@@ -1,4 +1,4 @@
-# Deep Dive into LLMs like ChatGPT
+# 深入理解 ChatGPT 这类大语言模型
 
 - **Source:** [YouTube](https://www.youtube.com/watch?v=7xTGNNLPyMI)
 - **Author:** Andrej Karpathy
@@ -10,6 +10,8 @@
 ## Description
 
 This is a general audience deep dive into the Large Language Model (LLM) AI technology that powers ChatGPT and related products. It is covers the full training stack of how the models are developed, along with mental models of how to think about their "psychology", and how to get the best use them in practical applications. I have one "Intro to LLMs" video already from ~year ago, but that is just a re-recording of a random talk, so I wanted to loop around and do a lot more comprehensive version.
+> **中文说明：** 这是一次面向大众的深度讲解，介绍支撑 ChatGPT 和相关产品的大语言模型技术。涵盖模型的完整训练流程、如何理解它们的"心理"模型，以及如何在实际应用中获得最佳效果。
+
 
 Instructor
 Andrej was a founding member at OpenAI (2015) and then Sr. Director of AI at Tesla (2017-2022), and is now a founder at Eureka Labs, which is building an AI-native school. His goal in this video is to raise knowledge and understanding of the state of the art in AI, and empower people to effectively use the latest and greatest in their work.
@@ -66,7 +68,7 @@ Discord channel for Eureka Labs and this video:   / discord  
 Educational Use Licensing
 This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.
 
-## 三岁版
+## 通俗解释
 
 这个视频是安德烈讲的一个很长很详细的课，告诉我们像 ChatGPT 这样的"聪明电脑"是怎么做出来的。他先讲电脑是怎么从网上学东西的，就像小朋友看书认字一样；然后讲电脑里面有一个很大的"数学大脑"，里面有很多数字在算来算去。他还告诉我们，这些电脑虽然很聪明，但也会"做梦"（说一些不真实的话），就像小朋友会编故事一样。最后他教我们怎么更好地使用这些工具，就像教小朋友怎么正确使用一个新玩具。
 

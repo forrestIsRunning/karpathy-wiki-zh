@@ -1,4 +1,4 @@
-# Chemical hygiene — 三岁小孩版
+# Chemical hygiene — 
 
 Karpathy 叔叔教我们怎么让身体更健康。他说有三件重要的事情：喝的水、呼吸的空气、吃的食物。
 

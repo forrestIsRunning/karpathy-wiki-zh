@@ -9,6 +9,8 @@
 ## Description
 
 This is the most step-by-step spelled-out explanation of backpropagation and training of neural networks. It only assumes basic knowledge of Python and a vague recollection of calculus from high school.
+> **中文说明：** 这是最详细、最逐步的反向传播和神经网络训练讲解，只需要基础的 Python 知识和高中的微积分记忆。
+
 
 Links:
 micrograd on github: https://github.com/karpathy/micrograd

@@ -7,25 +7,26 @@
 - **Year:** 2014
 - **URL:** https://cs.stanford.edu/people/karpathy/nips2014.pdf
 
-## Abstract
-We introduce a model for bidirectional retrieval of images and sentences through a deep, multi-modal embedding of visual and natural language data. Unlike previous models that directly map images or sentences into a common embedding space, our model works on a finer level and embeds fragments of images (objects) and fragments of sentences (typed dependency tree relations) into a common space. We then introduce a structured max-margin objective that allows our model to explicitly associate these fragments across modalities.
+## 摘要
 
-Extensive experimental evaluation shows that reasoning on both the global level of images and sentences and the finer level of their respective fragments improves performance on image-sentence retrieval tasks. Additionally, our model provides interpretable predictions for the image-sentence retrieval task since the inferred inter-modal alignment of fragments is explicit.
+我们提出了一个通过深度多模态嵌入视觉和自然语言数据来实现图像与句子双向检索的模型。与以往直接将图像或句子映射到公共嵌入空间的模型不同，我们的模型在更细粒度的层面上工作，将图像的片段（物体）和句子的片段（类型依赖树关系）嵌入到一个公共空间中。然后我们引入了一个结构化最大间隔目标函数，使模型能够显式地跨模态关联这些片段。
 
-## Method
-- **Image fragments:** Object detections using RCNN (Region Convolutional Neural Network), using top 19 detected locations plus the entire image as fragments.
-- **Sentence fragments:** Dependency tree relations (typed triplets from dependency parses).
-- **Objective:** Structured max-margin objective combining:
-  1. **Global Ranking Objective** - image-sentence pairs should be consistent with ground truth correspondences.
-  2. **Fragment Alignment Objective** - explicitly learns the appearance of sentence fragments in the visual domain.
+广泛的实验评估表明，同时在图像和句子的全局层面以及各自片段的细粒度层面进行推理，能够提升图像-句子检索任务的性能。此外，由于推断出的跨模态片段对齐是显式的，我们的模型为图像-句子检索任务提供了可解释的预测结果。
 
-## Datasets
+## 方法
+- **图像片段：** 使用 RCNN（区域卷积神经网络）进行目标检测，取检测到的前 19 个位置加上整张图像作为片段。
+- **句子片段：** 依存树关系（来自依存句法分析的类型化三元组）。
+- **目标函数：** 结构化最大间隔目标函数，结合了：
+  1. **全局排序目标** - 图像-句子对应与真实标注的对应关系保持一致。
+  2. **片段对齐目标** - 显式学习句子片段在视觉域中的外观表现。
+
+## 数据集
 - Pascal1K, Flickr8K, Flickr30K
-- Reported dramatic improvements over state-of-the-art methods on image-sentence retrieval tasks.
+- 在图像-句子检索任务上取得了相比当时最先进方法的显著提升。
 
-## Related Work Context
-- Builds on ideas from Frome et al. (DeViSE), Socher et al. (DT-RNN), and Girshick et al. (RCNN).
-- One of the early works on fine-grained multimodal alignment between visual and language data.
+## 相关工作背景
+- 建立在 Frome 等人 (DeViSE)、Socher 等人 (DT-RNN) 和 Girshick 等人 (RCNN) 的研究基础之上。
+- 视觉与语言数据之间细粒度多模态对齐的早期工作之一。
 
-## 三岁版
-这个研究教电脑玩"连连看"游戏：给电脑看一张照片和一句话，让它判断"这句话说的是这张图吗？"。但这次不是看整体，而是把照片里的小物件（比如"球"、"帽子"）和句子里的关键词（"球"、"帽子"）配对。就像小朋友玩配对卡片游戏，把画着苹果的卡片和写着"苹果"的卡片放在一起。
+## 解读
+这项研究教电脑玩"连连看"游戏：给电脑看一张照片和一句话，让它判断"这句话说的是这张图吗？"。但这次不是看整体，而是把照片里的小物件（比如"球"、"帽子"）和句子里的关键词（"球"、"帽子"）配对。就像玩配对卡片游戏，把画着苹果的卡片和写着"苹果"的卡片放在一起。

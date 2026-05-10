@@ -1,4 +1,4 @@
-# [1hr Talk] Intro to Large Language Models
+# [1hr Talk] 大语言模型入门
 
 - **Source:** [YouTube](https://www.youtube.com/watch?v=zjkBMFhNj_g)
 - **Author:** Andrej Karpathy
@@ -11,6 +11,8 @@
 
 This is a 1 hour general-audience introduction to Large Language Models: the core technical component behind systems like ChatGPT, Claude, and Bard. What they are, where they are headed, comparisons and analogies to present-day operating systems, and some of the security-related challenges of this new computing paradigm.
 As of November 2023 (this field moves fast!).
+> **中文说明：** 一小时的面向大众的大语言模型入门：ChatGPT、Claude、Bard 等系统的核心技术。介绍它们是什么、走向何方，以及与现有操作系统的类比。
+
 
 Context: This video is based on the slides of a talk I gave recently at the AI Security Summit. The talk was not recorded but a lot of people came to me after and told me they liked it. Seeing as I had already put in one long weekend of work to make the slides, I decided to just tune them a bit, record this round 2 of the talk and upload it here on YouTube. Pardon the random background, that's my hotel room during the thanksgiving break.
 
@@ -53,7 +55,7 @@ End
 Educational Use Licensing
 This video is freely available for educational and internal training purposes. Educators, students, schools, universities, nonprofit institutions, businesses, and individual learners may use this content freely for lessons, courses, internal training, and learning activities, provided they do not engage in commercial resale, redistribution, external commercial use, or modify content to misrepresent its intent.
 
-## 三岁版
+## 通俗解释
 
 这个视频是一个简单易懂的入门课，告诉我们 ChatGPT 和它的"朋友们"到底是什么东西。安德烈把它比作一台新的"电脑操作系统"——就像我们用的 Windows 或苹果系统一样，但这次是用来理解语言的。他讲了这些智能电脑怎么学习、怎么"做梦"（编造答案），也讲了它们可能被坏人"欺负"的安全问题。他还说未来的电脑不仅能看文字，还能看图片、听声音，就像一个全能的好帮手。
 

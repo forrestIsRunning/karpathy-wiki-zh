@@ -1,4 +1,4 @@
-# Yes you should understand backprop — 三岁小孩版
+# Yes you should understand backprop — 
 
 Karpathy 叔叔在斯坦福大学教深度学习课。他的学生问他："为什么我们要手写反向传播（backprop）的计算？电脑框架不是会自动算吗？"
 

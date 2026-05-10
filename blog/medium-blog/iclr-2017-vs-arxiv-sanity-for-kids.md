@@ -1,4 +1,4 @@
-# ICLR 2017 vs arxiv-sanity — 三岁小孩版
+# ICLR 2017 vs arxiv-sanity — 
 
 Karpathy 叔叔做了一个好玩的实验。ICLR 是一个 AI 大会，专家评委们要从几百篇论文中选出最好的。Karpathy 叔叔想：如果让普通网友来投票选，结果会一样吗？
 

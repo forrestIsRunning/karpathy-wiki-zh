@@ -8,16 +8,17 @@
 - **arXiv:** http://arxiv.org/abs/1409.0575
 - **Subjects:** Computer Vision and Pattern Recognition (cs.CV)
 
-## Abstract
-The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
+## 摘要
 
-This paper describes the creation of this benchmark dataset and the advances in object recognition that have been possible as a result. We discuss the challenges of collecting large-scale ground truth annotation, highlight key breakthroughs in categorical object recognition, provide a detailed analysis of the current state of the field of large-scale image classification and object detection, and compare the state-of-the-art computer vision accuracy with human accuracy. We conclude with lessons learned in the five years of the challenge, and propose future directions and improvements.
+ImageNet 大规模视觉识别挑战赛（ILSVRC）是一个面向数百个物体类别和数百万张图像的目标分类与检测基准测试。该挑战赛自 2010 年起每年举办，已吸引了超过五十家机构的参与。
 
-## Notes
-- The definitive paper summarizing the ILSVRC challenge.
-- Andrej Karpathy contributed to this large-scale collaborative work.
-- 43 pages, 16 figures.
-- Includes per-category comparisons and analysis of localization difficulty.
+本文描述了该基准数据集的创建过程，以及由此推动的物体识别领域的进步。我们讨论了大规模真实标注数据收集面临的挑战，强调了目标分类领域的关键突破，详细分析了大规模图像分类和目标检测领域的当前研究状况，并将最先进的计算机视觉精度与人类精度进行了比较。最后，我们总结了该挑战赛五年来的经验教训，并对未来方向和改进进行了展望。
 
-## 三岁版
-这个研究总结了一个叫ImageNet的"电脑认图大赛"。每年全世界的科学家都让各自的电脑参加比赛，看谁的电脑能认出最多的图片（比如猫、狗、飞机）。结果发现电脑认图的本事越来越厉害，有些甚至比人还认得好！就像一个年度"看图认物"比赛，电脑们轮流上台比谁认得准。
+## 笔记
+- 总结 ILSVRC 挑战赛的权威论文。
+- Andrej Karpathy 参与了这项大规模合作工作。
+- 43 页，16 张图。
+- 包含逐类别比较和定位难度的分析。
+
+## 解读
+这项研究总结了一个名为 ImageNet 的"电脑认图大赛"。每年全世界的科学家都让各自的电脑参加比赛，看谁的电脑能认出最多的图片（比如猫、狗、飞机）。结果发现电脑认图的本事越来越厉害，有些甚至比人还认得好！就像一个年度"看图认物"比赛，电脑们轮流上台比谁认得准。

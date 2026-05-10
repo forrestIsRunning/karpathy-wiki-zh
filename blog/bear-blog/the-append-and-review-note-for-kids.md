@@ -1,4 +1,4 @@
-# The append-and-review note — 三岁小孩版
+# The append-and-review note — 
 
 Karpathy 叔叔分享了他记笔记的好方法。他只在手机上用一个笔记，就叫"笔记"，没有再分很多文件夹。
 

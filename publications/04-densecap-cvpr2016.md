@@ -8,17 +8,18 @@
 - **URL:** https://cs.stanford.edu/people/karpathy/densecap/
 - **Code:** https://github.com/jcjohnson/densecap
 
-## Abstract
-This is a CVPR 2016 (Oral) paper from Stanford Vision Lab. The task introduces "dense captioning," requiring systems to both localize and describe salient regions in images in natural language. The authors propose a Fully Convolutional Localization Network (FCLN) architecture that handles localization and description jointly. It processes an image with a single, efficient forward pass, requires no external region proposals, and supports end-to-end training in one optimization round. The architecture combines a Convolutional Network, a novel dense localization layer, and an RNN language model.
+## 摘要
 
-## Key Contributions
-1. **Dense captioning** as a new task -- it generalizes object detection when the descriptions consist of a single word and Image Captioning when one region covers the whole image.
-2. **FCLN architecture** -- single forward pass, no external region proposals needed.
-3. In "backwards" mode, the model can search images for arbitrary text queries (region search) by computing the probability of generating the query given each detected region.
+本文来自 Stanford Vision Lab，发表于 CVPR 2016 (Oral)。该任务提出了"密集描述"（dense captioning），要求系统同时定位图像中的显著区域并用自然语言对其进行描述。作者提出了全卷积定位网络（FCLN）架构，将定位和描述联合处理。该架构通过单次高效前向传播处理图像，无需外部区域建议，并支持一轮端到端训练。该架构结合了卷积网络、一种新颖的密集定位层和一个 RNN 语言模型。
 
-## Dataset & Evaluation
-- Evaluated on the **Visual Genome dataset** (94,000 images, 4.1 million region-grounded captions).
-- Demonstrated speed and accuracy improvements over baselines in both generation and retrieval settings.
+## 核心贡献
+1. **密集描述**作为一项新任务——当描述由单个单词构成时，它泛化了目标检测；当单个区域覆盖整张图像时，它泛化了图像描述（Image Captioning）。
+2. **FCLN 架构**——单次前向传播，无需外部区域建议。
+3. 在"逆向"模式下，模型可以通过计算每个检测区域生成给定查询的概率，在大规模图像中搜索任意文本查询（区域搜索）。
+
+## 数据集与评估
+- 在 **Visual Genome 数据集**上进行评估（94,000 张图像，410 万条区域相关的描述）。
+- 在图像描述生成和检索两种任务上都展示了对基线的速度和精度提升。
 
 ## BibTeX
 ```
@@ -30,5 +31,5 @@ This is a CVPR 2016 (Oral) paper from Stanford Vision Lab. The task introduces "
 }
 ```
 
-## 三岁版
-这个研究教电脑更厉害地"看图说话"。之前的电脑只能给整张照片写一句话，这个研究教电脑给照片里的每一个"小东西"都写一句话——比如"红色的球"、"追球的小狗"、"绿色的草地"。就像小朋友看一本图画书，能指出每个角落分别画了什么。
+## 解读
+这项研究教会电脑更厉害地"看图说话"。之前的电脑只能给整张照片写一句话，这项研究则教会电脑给照片里的每一个"小东西"都写一句话——比如"红色的球"、"追球的小狗"、"绿色的草地"。就像小朋友看一本图画书，能指出每个角落分别画了什么。

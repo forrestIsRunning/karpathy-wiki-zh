@@ -1,4 +1,4 @@
-# 2025 LLM Year in Review — 三岁小孩版
+# 2025 LLM Year in Review — 
 
 Karpathy 叔叔总结了 2025 年 AI 发生的 6 件大事。让我们看看：
 

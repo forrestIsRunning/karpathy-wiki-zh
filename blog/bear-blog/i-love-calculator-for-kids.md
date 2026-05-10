@@ -1,4 +1,4 @@
-# I love calculator — 三岁小孩版
+# I love calculator — 
 
 Karpathy 叔叔在书店看到一本关于计算器的书，突然发现：哇，计算器真是太棒了！
 

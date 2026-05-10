@@ -1,4 +1,4 @@
-# AlphaGo, in context — 三岁小孩版
+# AlphaGo, in context — 
 
 Karpathy 叔叔解释了 AlphaGo（那个下围棋赢了世界冠军的 AI）到底有多厉害、有多不厉害。
 

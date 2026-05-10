@@ -1,4 +1,4 @@
-# The space of minds — 三岁小孩版
+# The space of minds — 
 
 Karpathy 叔叔说，世界上有很多种"脑子"。人类的脑子是一种，AI 的脑子是另外一种。
 

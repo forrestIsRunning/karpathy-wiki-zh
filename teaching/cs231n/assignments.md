@@ -1,3 +1,26 @@
+---
+
+**中文翻译**
+
+**CS231n 2026 春季学期有 3 个作业**，兼顾理论理解和实践技能：
+
+| 作业 | 权重 | 主题 |
+|-----|------|------|
+| 作业 1 | 12% | 图像分类、kNN、Softmax、全连接神经网络 |
+| 作业 2 | 18% | 批量归一化、Dropout、卷积网络、网络可视化、RNN 图像描述 |
+| 作业 3 | 15% | Transformer 图像描述、自监督学习、扩散模型、CLIP 和 DINO |
+
+**截止时间**：均为太平洋时间晚上 11:59。
+
+**提交方式**：通过 Gradescope 提交。
+
+**迟交政策**：4 个免费晚交天数，每个作业最多用 2 天。
+
+**合作政策**：可以小组讨论，但每个人必须独立完成和提交。列出组员名字。可以使用生成式 AI，但要注明使用方式。用 AI 实质性完成作业违反荣誉准则。
+
+---
+
+
 # CS231n Spring 2026 Assignments
 
 There will be three assignments which will improve both your theoretical understanding and your practical skills. All assignments contain programming parts and written questions.

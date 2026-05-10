@@ -1,4 +1,4 @@
-# Animals vs Ghosts — 三岁小孩版
+# Animals vs Ghosts — 
 
 Karpathy 叔叔跟一个叫 Sutton 的爷爷在聊天。Sutton 爷爷说："AI 不应该学人类写的东西，它们应该像小动物一样，自己去世界里面玩、自己学会东西。" 就像小猫咪不用上学也能学会抓老鼠一样。但是 Karpathy 叔叔说："AI 不是小猫咪。AI 是幽灵。"
 

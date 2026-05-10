@@ -1,8 +1,8 @@
-# Andrej Karpathy 论文清单（三岁版）
+# Andrej Karpathy 论文清单
 
 一句话告诉你每篇论文在做什么：
 
-1. **World of Bits (ICML 2017)** -- 教电脑自己上网买东西、查资料，像小朋友学用电脑一样。
+1. **World of Bits (ICML 2017)** -- 教电脑自己上网买东西、查资料，像学习使用电脑一样。
 2. **PixelCNN++ (ICLR 2017)** -- 教电脑"画画"，看了很多照片后自己就能画出新的图片。
 3. **Connecting Images and Natural Language (PhD Thesis 2016)** -- 让电脑学会"看图说话"，看到照片就能讲出一个故事。
 4. **DenseCap (CVPR 2016)** -- 教电脑给照片里的每个小东西都写一句话，不只是描述整张图。

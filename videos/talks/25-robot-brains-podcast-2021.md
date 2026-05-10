@@ -1,4 +1,4 @@
-# Robot Brains Podcast 2021: Who Is Andrej Karpathy?
+# 机器人大脑播客 2021: Who Is Andrej Karpathy?
 
 - **Speaker:** Andrej Karpathy (Tesla)
 - **Host:** Pieter Abbeel
@@ -24,6 +24,6 @@ This episode provides a comprehensive overview of Karpathy's career arc and his 
 
 [View Podcast (archived link)](https://www.therobotbrains.ai/who-is-andrej-karpathy)
 
-## 三岁版
+## 通俗解释
 
 这是 Pieter Abbeel（一位机器人学家）主持的播客节目，采访了安德烈，聊了他是谁、怎么走到今天的。安德烈讲述了他从斯坦福的博士生到 OpenAI 创始成员，再到特斯拉 AI 负责人的成长故事。他分享了特斯拉怎么做出自动驾驶的——不是靠写各种规则，而是让 AI 自己从数据中学习。他还给想进入 AI 领域的年轻人提了建议：要多动手实践、多做项目，就像学游泳不能只看书，一定要跳进水里扑腾才能学会。

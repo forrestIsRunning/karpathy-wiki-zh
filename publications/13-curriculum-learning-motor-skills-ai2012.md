@@ -8,26 +8,27 @@
 - **URL:** https://www.cs.ubc.ca/~van/papers/2012-AI-curriculum/index.html
 - **PDF:** 2012-AI-curriculum.pdf
 
-## Abstract
-Humans and animals acquire their wide repertoire of motor skills through an incremental learning process, during which progressively more complex skills are acquired and subsequently integrated with prior abilities. The order in which the skills are learned and the progressive manner in which they are developed play an important role in developing a final skill set.
+## 摘要
 
-Inspired by this general idea, we develop an approach for learning motor skills based on a two-level curriculum:
-- **High-level curriculum:** specifies an order in which different skills should be learned.
-- **Low-level curriculum:** defines a process for learning within a skill.
+人类和动物通过渐进式学习过程获得广泛的运动技能，在此过程中，他们逐步学习越来越复杂的技能，并将其与先前的能力整合。技能学习的顺序以及逐步发展的方式对最终技能集的形成起着重要作用。
 
-The method is used to develop an ensemble of highly dynamic integrated motor skills for a planar articulated figure capable of doing parameterized hops, flips, rolls, and acrobatic sequences. Importantly, we demonstrate that the same curriculum can be successfully applied to significant variations of the articulated figure to yield appropriately individualized motor skill sets.
+受这一基本思想的启发，我们提出了一种基于双层课程学习的运动技能学习方法：
+- **高层课程：** 规定了不同技能的学习顺序。
+- **底层课程：** 定义了单一技能内部的学习过程。
 
-## Key Contributions
-- Two-level curriculum learning framework for motor skills.
-- Demonstrates transfer of curriculum across variations of the articulated figure.
-- Produces highly dynamic motor skills including hops, flips, rolls, and acrobatic sequences.
+该方法被用于开发一个高度动态的整合运动技能集，适用于一个平面铰接角色，使其能够执行参数化的跳跃、空翻、翻滚和杂技序列。重要的是，我们证明了相同的课程可以成功应用于该铰接角色的显著变体，从而产生个性化的运动技能集。
 
-## Funding
-- NSERC (Natural Sciences and Engineering Research Council of Canada)
-- GRAND NCE: Graphics, Animation, and New Media
+## 核心贡献
+- 运动技能的双层课程学习框架。
+- 证明了课程在铰接角色变体之间的可迁移性。
+- 产生了高度动态的运动技能，包括跳跃、空翻、翻滚和杂技序列。
 
-## Video
-Available on Vimeo.com
+## 资助
+- NSERC（加拿大自然科学与工程研究委员会）
+- GRAND NCE：图形、动画与新媒体
 
-## 三岁版
-这个研究教电脑"学走路、学翻跟头"。就像小朋友学运动一样，要先学会爬，再学会走，最后才能跑和跳。电脑也是——先学简单的动作，再学难的，一步步来。最后电脑角色能做出翻跟头、侧手翻这些很酷的动作。
+## 视频
+可在 Vimeo.com 上观看
+
+## 解读
+这项研究教电脑"学走路、学翻跟头"。就像学运动一样，要先学会爬，再学会走，最后才能跑和跳。电脑也是——先学简单的动作，再学难的，一步步来。最后电脑角色能做出翻跟头、侧手翻这些很酷的动作。

@@ -4,51 +4,49 @@
 **Stars:** 5.7k | **Forks:** 1.4k | **Language:** Python
 **License:** MIT
 
-## Description
+## 项目介绍
 
-A web interface that attempts to tame the overwhelming flood of papers on Arxiv. It allows researchers to keep track of recent papers, search for papers, sort papers by similarity to any paper, see recent popular papers, add papers to a personal library, and get personalized recommendations of (new or old) Arxiv papers.
+一个网页界面，旨在驯服 Arxiv 上铺天盖地的论文洪流。它让研究人员能够跟踪最新论文、搜索论文、按相似度对论文排序、查看近期热门论文、将论文添加到个人文库，并获得个性化推荐（无论是新论文还是旧论文）。
 
-This code is running live at [www.arxiv-sanity.com](http://www.arxiv-sanity.com/), serving 25,000+ Arxiv papers from Machine Learning (cs.[CV|AI|CL|LG|NE]/stat.ML) over the last ~3 years.
+该代码正在 [www.arxiv-sanity.com](http://www.arxiv-sanity.com/) 上运行，覆盖了过去约 3 年来自机器学习领域（cs.[CV|AI|CL|LG|NE]/stat.ML）的 25,000 多篇 Arxiv 论文。
 
-**Update (Nov 27, 2021):** A from-scratch re-write called [arxiv-sanity-lite](https://arxiv-sanity-lite.com) is available — a smaller version focusing on the core value proposition.
+**更新（2021 年 11 月 27 日）：** 一个从零重写的版本 [arxiv-sanity-lite](https://arxiv-sanity-lite.com) 已经上线——更精简，聚焦于核心价值。
 
-## Code Layout
+这就像你的"论文小助手"。每天有太多科学论文冒出来，根本看不过来，它就帮你自动从网上收论文、整理好，还能推荐你可能感兴趣的文章。就像有一个好朋友先帮你把好玩的东西挑出来，省得你在一大堆里面自己翻。
 
-### Indexing Code
-Uses Arxiv API to download recent papers in any categories, downloads all papers, extracts all text, creates tfidf vectors based on content. Backend scraping and computation: building a database, calculating content vectors, creating thumbnails, computing SVMs for users.
+## 代码结构
 
-### User Interface
-A web server (based on Flask/Tornado/sqlite) for searching and filtering papers by similarity.
+### 索引代码
+使用 Arxiv API 下载任何类别的最新论文，下载所有论文，提取所有文本，根据内容创建 tfidf 向量。后端抓取和计算：构建数据库、计算内容向量、创建缩略图、为用户计算 SVM。
 
-## Dependencies
+### 用户界面
+基于 Flask/Tornado/sqlite 的 Web 服务器，用于按相似度搜索和筛选论文。
 
-Multiple: numpy, feedparser, scikit-learn, flask, flask_limiter, tornado, dateutil, scipy, sqlite3. Also ImageMagick and pdftotext (`sudo apt-get install imagemagick poppler-utils`).
+## 依赖项
 
-## Processing Pipeline
+多个依赖：numpy、feedparser、scikit-learn、flask、flask_limiter、tornado、dateutil、scipy、sqlite3。还需要 ImageMagick 和 pdftotext（`sudo apt-get install imagemagick poppler-utils`）。
 
-1. Run `fetch_papers.py` — query arxiv API, create `db.p`
-2. Run `download_pdfs.py` — download papers to `pdf/`
-3. Run `parse_pdf_to_text.py` — export text from PDFs to `txt/`
-4. Run `thumb_pdf.py` — export thumbnails to `thumb/`
-5. Run `analyze.py` — compute tfidf vectors (saves `tfidf.p`, `tfidf_meta.p`, `sim_dict.p`)
-6. Run `buildsvm.py` — train SVMs for users (exports `user_sim.p`)
-7. Run `make_cache.py` — preprocessing for faster server start
-8. Run the flask server with `serve.py`
+## 处理流程
 
-**Protip:** Set up numpy with BLAS (e.g. OpenBLAS) for analyze.py performance.
+1. 运行 `fetch_papers.py` — 查询 arxiv API，创建 `db.p`
+2. 运行 `download_pdfs.py` — 将论文下载到 `pdf/`
+3. 运行 `parse_pdf_to_text.py` — 从 PDF 导出文本到 `txt/`
+4. 运行 `thumb_pdf.py` — 导出缩略图到 `thumb/`
+5. 运行 `analyze.py` — 计算 tfidf 向量（保存 `tfidf.p`、`tfidf_meta.p`、`sim_dict.p`）
+6. 运行 `buildsvm.py` — 为用户训练 SVM（导出 `user_sim.p`）
+7. 运行 `make_cache.py` — 预处理，加快服务器启动速度
+8. 使用 `serve.py` 运行 flask 服务器
 
-## Running Online
+**小贴士：** 为 analyze.py 的性能考虑，请搭配 BLAS（例如 OpenBLAS）使用 numpy。
 
-Run `python serve.py --prod`. Create a `secret_key.txt` file. The server is typically run in a screen session. The daily update workflow runs fetch_papers, download_pdfs, parse_pdf_to_text, thumb_pdf, analyze, buildsvm, make_cache scripts sequentially.
+## 在线运行
 
-## License
+运行 `python serve.py --prod`。创建一个 `secret_key.txt` 文件。服务器通常在 screen 会话中运行。每日更新工作流依次执行 fetch_papers、download_pdfs、parse_pdf_to_text、thumb_pdf、analyze、buildsvm、make_cache 脚本。
+
+## 许可证
 
 MIT
 
 ---
 
-*Fetched from https://github.com/karpathy/arxiv-sanity-preserver on 2026-05-09*
-
-## 三岁版
-
-arxiv-sanity-preserver 就像你的"论文小助手"。每天有太多科学论文冒出来，根本看不过来，它就帮你自动从网上收论文、整理好，还能推荐你可能感兴趣的文章。就像有一个好朋友先帮你把好玩的东西挑出来，省得你在一大堆里面自己翻。
+*数据获取自 https://github.com/karpathy/arxiv-sanity-preserver (2026-05-09)*

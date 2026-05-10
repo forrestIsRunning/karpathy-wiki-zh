@@ -1,3 +1,25 @@
+---
+
+**中文翻译**
+
+CS231n 2026 春季课程表（前 10 周）。每周二和周四 12:00-1:20 PM 上课。
+
+课程涵盖：
+- 深度学习基础（图像分类、反向传播、神经网络）
+- CNN 架构（AlexNet、VGG、ResNet）
+- RNN 和 Transformer
+- 目标检测和图像分割
+- 视频理解
+- 大规模分布式训练
+- 自监督学习
+- 生成模型（VAE、GAN、扩散模型）
+- 3D 视觉
+
+讨论课每周五 12:30-1:20 PM。第 6 周期中考试。
+
+---
+
+
 # CS231n Spring 2026 Schedule
 
 **Lectures:** Tuesdays and Thursdays 12:00-1:20 PM Pacific Time at NVIDIA Auditorium.

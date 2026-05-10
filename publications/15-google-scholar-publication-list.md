@@ -1,10 +1,10 @@
-# Andrej Karpathy - Complete Publication List (from Google Scholar)
+# Andrej Karpathy - 完整论文列表（来自 Google Scholar）
 
 ## Metadata
 - **Source:** Google Scholar
 - **Profile:** https://scholar.google.com/citations?user=l8WuQJgAAAAJ&hl=en&oi=ao
 
-## Publications Listed (in order)
+## 论文列表（按顺序）
 
 1. **ImageNet Large Scale Visual Recognition Challenge**
    - Authors: O Russakovsky, J Deng, H Su, J Krause, S Satheesh, S Ma, Z Huang, A Karpathy, A Khosla, M Bernstein, AC Berg, L Fei-Fei
@@ -50,7 +50,7 @@
     - Authors: A Coates, A Karpathy, AY Ng
     - Venue: NIPS 2012
 
-## Additional Papers (not captured by Google Scholar snapshot)
+## 补充论文（未包含在 Google Scholar 快照中）
 
 12. **World of Bits: An Open-Domain Platform for Web-Based Agents**
     - Authors: T Shi, A Karpathy, L Fan, J Hernandez, P Liang
@@ -64,10 +64,10 @@
     - Author: A Karpathy
     - Institution: Stanford University, 2016
 
-## Notes
-- Google Scholar page uses JavaScript rendering, so the citation counts and detailed metadata were not directly accessible.
-- The paper list was reconstructed from the HTML text that was available.
-- Karpathy's research spans: Computer Vision, Natural Language Processing, Reinforcement Learning, Graphics/Animation, and Unsupervised Learning.
+## 笔记
+- Google Scholar 页面使用 JavaScript 渲染，因此引用计数和详细元数据无法直接获取。
+- 论文列表根据可获取的 HTML 文本重建。
+- Karpathy 的研究领域涵盖：计算机视觉、自然语言处理、强化学习、图形学/动画、以及无监督学习。
 
-## 三岁版
-Andrej Karpathy是一个超级厉害的科学家，他发明了很多教电脑"看懂世界"的方法——让电脑认图片、看视频、理解句子、走路跑步。他的研究就像在教一个三岁小孩，从什么都不懂到能看图说话、上网买东西、甚至在电脑里翻跟头！这些论文就是他一步步教电脑"长大"的日记。
+## 解读
+Andrej Karpathy 是一位杰出的科学家，他发明了许多教电脑"看懂世界"的方法——让电脑认图片、看视频、理解句子、走路跑步。他的研究就像在教一个初学者，从什么都不懂逐步成长为能看图说话、上网操作、甚至在电脑里翻跟头！这些论文就是他一步步教电脑"成长"的记录。
