@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Karpathy Wiki ZH — Andrej Karpathy 中文知识库",
+  "alternateName": "Karpathy Chinese Knowledge Base",
+  "description": "A comprehensive Chinese-language knowledge base of Andrej Karpathy's entire online presence. Includes all blog posts (42 articles), videos (35+ talks), academic papers (15), open-source projects (14), CS231n course materials, and core ideas — all translated into Chinese with toddler-friendly explanations.",
+  "url": "https://github.com/YOUR_USERNAME/karpathy-wiki-zh",
+  "keywords": [
+    "Andrej Karpathy",
+    "deep learning",
+    "machine learning",
+    "neural networks",
+    "transformer",
+    "GPT",
+    "computer vision",
+    "autonomous driving",
+    "AI education",
+    "CS231n",
+    "Stanford",
+    "OpenAI",
+    "Tesla AI",
+    "Chinese",
+    "中文",
+    "深度学习",
+    "人工智能",
+    "神经网络"
+  ],
+  "inLanguage": ["zh-CN", "en"],
+  "about": {
+    "@type": "Person",
+    "name": "Andrej Karpathy",
+    "description": "AI researcher and educator. Founding member of OpenAI, former Director of AI at Tesla, creator of CS231n at Stanford.",
+    "url": "https://karpathy.ai"
+  },
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "Chinese-speaking AI learners",
+      "Deep learning beginners",
+      "Students",
+      "Developers",
+      "Educators"
+    ]
+  },
+  "totalFiles": 186,
+  "coverage": {
+    "blogPosts": 42,
+    "videoTalks": 25,
+    "courseMaterials": 13,
+    "openSourceProjects": 14,
+    "academicPapers": 15,
+    "booksReviewed": 37
+  },
+  "educationalLevel": "Beginner to Intermediate",
+  "dateCreated": "2026-05-09",
+  "dateModified": "2026-05-10",
+  "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "citation": "https://karpathy.ai",
+  "isAccessibleForFree": true,
+  "thumbnailUrl": "https://karpathy.ai/assets/me_new.jpg",
+  "featureList": [
+    "100% Chinese translation",
+    "Toddler-friendly explanations (三岁版)",
+    "Full text preservation of all original content",
+    "Original links preserved in every file",
+    "Git-versioned",
+    "SEO and GEO optimized"
+  ]
+}
