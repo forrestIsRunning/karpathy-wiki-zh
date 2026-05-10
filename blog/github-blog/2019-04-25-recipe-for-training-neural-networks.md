@@ -1,3 +1,37 @@
+几周前我发了一条关于"最常见的神经网络错误"的推文。很多人经历过"卷积层是这样工作的"和"我们的网络达到最先进结果"之间的巨大差距。
+
+### 1) 神经网络训练是有漏洞的抽象
+它不像标准软件那样即插即用。一旦你偏离训练ImageNet分类器，神经网络就不是现成技术。
+
+### 2) 神经网络训练会无声地失败
+一切语法正确但整体不当，很难判断。快速激烈的方法不起作用，只会导致痛苦。
+
+## 方法
+
+### 1. 与数据合为一体
+不碰任何代码，彻底检查数据。花大量时间浏览数千样本。
+
+### 2. 设置端到端训练评估框架
+选择简单模型。固定随机种子、简化、验证初始损失、过拟合一个批次、可视化预测动态。
+
+### 3. 过拟合
+选择合适架构。不要做英雄，复制最相关论文的最简单架构。Adam安全。一次只复杂化一个方面。
+
+### 4. 正则化
+获取更多数据、数据增强、预训练、Dropout、权重衰减、早停。
+
+### 5. 调参
+随机搜索优于网格搜索。
+
+### 6. 压榨性能
+模型集成、让它继续训练。
+
+结论：深入理解技术和数据，逐步尝试更复杂模型。祝好运！
+
+---
+
+*English original below:*
+
 Some few weeks ago I [posted](https://twitter.com/karpathy/status/1013244313327681536?lang=en) a tweet on “the most common neural net mistakes”, listing a few common gotchas related to training neural nets. The tweet got quite a bit more engagement than I anticipated (including a [webinar](https://www.bigmarker.com/missinglink-ai/PyTorch-Code-to-Unpack-Andrej-Karpathy-s-6-Most-Common-NN-Mistakes):)). Clearly, a lot of people have personally encountered the large gap between “here is how a convolutional layer works” and “our convnet achieves state of the art results”.
 
 So I thought it could be fun to brush off my dusty blog to expand my tweet to the long form that this topic deserves. However, instead of going into an enumeration of more common errors or fleshing them out, I wanted to dig a bit deeper and talk about how one can avoid making these errors altogether (or fix them very fast). The trick to doing so is to follow a certain process, which as far as I can tell is not very often documented. Let’s start with two important observations that motivate it.
@@ -7,7 +41,7 @@ So I thought it could be fun to brush off my dusty blog to expand my tweet to th
 It is allegedly easy to get started with training neural nets. Numerous libraries and frameworks take pride in displaying 30-line miracle snippets that solve your data problems, giving the (false) impression that this stuff is plug and play. It’s common see things like:
 
 ```python
->>> your_data = # plug your awesome dataset here
+>>> your_data = # plug your 强大的 dataset here
 >>> model = SuperCrossValidator(SuperDuper.fit, your_data, ResNet50, SGDOptimizer)
 # conquer world here
 ```
@@ -44,7 +78,7 @@ Once you get a qualitative sense it is also a good idea to write some simple cod
 
 #### 2\. Set up the end-to-end training/evaluation skeleton + get dumb baselines
 
-Now that we understand our data can we reach for our super fancy Multi-scale ASPP FPN ResNet and begin training awesome models? For sure no. That is the road to suffering. Our next step is to set up a full training + evaluation skeleton and gain trust in its correctness via a series of experiments. At this stage it is best to pick some simple model that you couldn’t possibly have screwed up somehow - e.g. a linear classifier, or a very tiny ConvNet. We’ll want to train it, visualize the losses, any other metrics (e.g. accuracy), model predictions, and perform a series of ablation experiments with explicit hypotheses along the way.
+Now that we understand our data can we reach for our super fancy Multi-scale ASPP FPN ResNet and begin training 强大的 models? For sure no. That is the road to suffering. Our next step is to set up a full training + evaluation skeleton and gain trust in its correctness via a series of experiments. At this stage it is best to pick some simple model that you couldn’t possibly have screwed up somehow - e.g. a linear classifier, or a very tiny ConvNet. We’ll want to train it, visualize the losses, any other metrics (e.g. accuracy), model predictions, and perform a series of ablation experiments with explicit hypotheses along the way.
 
 Tips & tricks for this stage:
 

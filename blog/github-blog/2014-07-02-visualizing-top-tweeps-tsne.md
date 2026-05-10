@@ -83,7 +83,7 @@ tfidf 向量以行的形式堆叠在 `X` 中，其大小为 `500 x 87,342`。这
 
 因此，该算法偏好保存高维数据的局部结构。方便的是，作者在他们的[网站](http://homepage.tudelft.nl/19j49/t-SNE.html)上链接了 t-SNE 的多种实现，这也让我们可以查看一些参考代码（如果你和我一样，读代码可能比读文字描述容易得多）。我们准备编写 Javascript 版本了！
 
-最终代码可以在 Github 上的 [tsne.js 文件](https://github.com/karpathy/tsnejs) 中看到。注意我们如何将所有 JS 代码包装在一个函数闭包中，以使我们不污染全局命名空间。这是 Javascript 中一个非常常见的技巧，本质上用于实现类。还要注意我不得不在开头包含的大量实用样板代码，因为 Javascript 并不专门为数学而设计:) 所有魔法发生的核心函数是 `costGrad()`，它计算代价函数和目标的梯度。此函数的正确实现通过 `debugGrad()` 梯度检查进行双重验证。一旦分析梯度与数值梯度一致，我们就大功告成了！我们设置一段 Javascript 来重复调用我们的 `step()` 函数（`setInterval()` 调用），并在计算过程中绘制结果。
+最终代码可以在 Github 上的 [tsne.js 文件](https://github.com/karpathy/tsnejs) 中看到。注意我们如何将所有 JS 代码包装在一个函数闭包中，以使我们不污染全局命名空间。这是 Javascript 中非常常见的技巧，本质上用于实现类。还要注意我不得不在开头包含的大量实用样板代码，因为 Javascript 并不专门为数学而设计:) 所有魔法发生的核心函数是 `costGrad()`，它计算代价函数和目标的梯度。此函数的正确实现通过 `debugGrad()` 梯度检查进行双重验证。一旦分析梯度与数值梯度一致，我们就大功告成了！我们设置一段 Javascript 来重复调用我们的 `step()` 函数（`setInterval()` 调用），并在计算过程中绘制结果。
 
 呼！再次给出最终结果：[t-SNE 演示](http://cs.stanford.edu/people/karpathy/tsnejs/)。
 

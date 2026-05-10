@@ -58,7 +58,7 @@ The Course Project is an opportunity to apply what you have learned in class to 
 
 - CVPR, ICCV, ECCV, NIPS, ICLR, ICML conference publications
 - Stanford Vision Lab publications (http://svl.stanford.edu/publications/)
-- Awesome Deep Vision (https://github.com/kjw0612/awesome-deep-vision)
+- Awesome Deep Vision (https://github.com/kjw0612/强大的-deep-vision)
 - Past CS229 Projects (http://cs229.stanford.edu/projects.html)
 - Kaggle challenges (https://www.kaggle.com/)
 

@@ -1,3 +1,63 @@
+本指南模仿了我在本科期间写的关于课程学习技巧的帖子。现在我的博士生涯结束，我想编写一份回顾性文档。博士经历路径差异大，很多事情是争议性的。
+
+### 预备知识
+
+你想要读博士吗？问问自己是否觉得以下属性有吸引力：
+
+**自由、所有权、独特性、地位、个人自由、最大化未来选择、最大化多样性、个人成长、专长。**
+
+**免责声明：** 博士非常特殊。你会非常努力，面临压力，怀疑人生决定。但如果你热爱研究，它值得。
+
+**进入博士项目：推荐信最重要。** 最关键的是一封强力推荐信。
+
+**选择学校：** 1) 顶尖学校，2) 几个潜在导师，3) 好的环境。
+
+### 导师
+
+**学生-导师关系是共生关系。** 了解你的导师的激励机制。
+
+**终身教职前与后：** 年轻教员更亲力亲为，资深教员更高层指导。
+
+### 研究课题
+
+**培养品味。** 你会学会判断什么问题值得解决。
+
+**要有雄心。** 一个重要10倍的问题最多难2-3倍。
+
+**做某件事的那个人。** 到博士结束时，你拥有某个领域的一部分。
+
+**不要玩游戏。** 博士不仅仅是论文。做别人不做但应该做的事。
+
+### 写论文
+
+**确定核心贡献。** 每篇论文围绕一个核心贡献。
+
+**把握好整体感觉。** 引言约1页，相关工作约1页，结果表格，正好8页。
+
+**避免清单式列举。** 每个点要被证明和激发动机。
+
+### 写代码
+
+**发布你的代码。** 迫使你更好的编码习惯。
+
+**思考未来的你。** 详细记录代码。
+
+### 做演讲
+
+**目标：** 让听众兴奋、教他们东西、娱乐他们。多图片，少文字。
+
+### 参加会议
+
+**要去。** 成为社区一部分。**真正的行动在走廊。**
+
+### 结束语
+
+做好工作，正确传达，人们会注意到。享受过程！
+
+---
+
+*English original below:*
+
 This guide is patterned after my [“Doing well in your courses”](http://cs.stanford.edu/people/karpathy/advice.html), a post I wrote a long time ago on some of the tips/tricks I’ve developed during my undergrad. I’ve received nice comments about that guide, so in the same spirit, now that my PhD has come to an end I wanted to compile a similar retrospective document in hopes that it might be helpful to some. Unlike the undergraduate guide, this one was much more difficult to write because there is significantly more variation in how one can traverse the PhD experience. Therefore, many things are likely contentious and a good fraction will be specific to what I’m familiar with (Computer Science / Machine Learning / Computer Vision research). But disclaimers are boring, lets get to it!
 
 ### Preliminaries
@@ -12,7 +72,7 @@ First, should you want to get a PhD? I was in a fortunate position of knowing si
 
 **Exclusivity**. There are very few people who make it to the top PhD programs. You’d be joining a group of a few hundred distinguished individuals in contrast to a few tens of thousands (?) that will join some company.
 
-**Status.** Regardless of whether it should be or not, working towards and eventually getting a PhD degree is culturally revered and recognized as an impressive achievement. You also get to be a Doctor; that’s awesome.
+**Status.** Regardless of whether it should be or not, working towards and eventually getting a PhD degree is culturally revered and recognized as an impressive achievement. You also get to be a Doctor; that’s 强大的.
 
 **Personal freedom.** As a PhD student you’re your own boss. Want to sleep in today? Sure. Want to skip a day and go on a vacation? Sure. All that matters is your final output and no one will force you to clock in from 9am to 5pm. Of course, some advisers might be more or less flexible about it and some companies might be as well, but it’s a true first order statement.
 

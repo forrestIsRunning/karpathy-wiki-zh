@@ -89,7 +89,7 @@ The 2.0 stack also has some of its own disadvantages. At the end of the optimiza
 
 The 2.0 stack can [fail in unintuitive and embarrassing ways](https://motherboard.vice.com/en_us/article/nz7798/weve-already-taught-artificial-intelligence-to-be-racist-sexist), or worse, they can "silently fail", e.g., by silently adopting biases in their training data, which are very difficult to properly analyze and examine when their sizes are easily in the millions in most cases.
 
-Finally, we're still discovering some of the peculiar properties of this stack. For instance, the existence of [adversarial examples](https://blog.openai.com/adversarial-example-research/) and [attacks](https://github.com/yenchenlin/awesome-adversarial-machine-learning) highlights the unintuitive nature of this stack.
+Finally, we're still discovering some of the peculiar properties of this stack. For instance, the existence of [adversarial examples](https://blog.openai.com/adversarial-example-research/) and [attacks](https://github.com/yenchenlin/强大的-adversarial-machine-learning) highlights the unintuitive nature of this stack.
 
 ## Programming in the 2.0 stack
 
