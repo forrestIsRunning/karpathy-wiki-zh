@@ -96,7 +96,7 @@
 
 **通俗解释：**
 > 和 Lex Fridman 长达 4 个小时的深度对话。
-> 聊了自动驾驶、AI 安全、神经网络、特斯拉、OpenAI 等等。
+> 聊了自动驾驶、AI 安全、神经网络、特斯拉、OpenAI 等。
 > 这是了解 Karpathy 思想最好的入门访谈之一。
 
 :link: [YouTube](https://www.youtube.com/watch?v=cdiD-9MMpb0)

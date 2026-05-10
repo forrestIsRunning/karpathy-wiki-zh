@@ -1,3 +1,18 @@
+区块链很迷人，因为它将开源软件开发扩展为开源+状态。我们不仅分享代码，还分享一台运行的电脑，任何人都可以无需许可地使用它。这场革命的种子始于比特币。
+
+**我们将用纯Python、从零开始、零依赖创建、数字签名并广播一笔比特币交易。**
+
+### 步骤
+1. **生成加密身份：** 使用secp256k1椭圆曲线生成私钥/公钥对
+2. **创建交易：** 构建交易数据结构，指定输入（来自之前UTXO）和输出（到接收方地址）
+3. **数字签名：** 使用私钥对交易签名
+4. **序列化：** 将交易转换为十六进制格式
+5. **广播：** 将交易发送到比特币网络
+
+---
+
+*English original below:*
+
 I find blockchain fascinating because it extends open source software development to open source + state. This seems to be a genuine/exciting innovation in computing paradigms; We don’t just get to share code, we get to share a running computer, and anyone anywhere can use it in an open and permissionless manner. The seeds of this revolution arguably began with Bitcoin, so I became curious to drill into it in some detail to get an intuitive understanding of how it works. And in the spirit of “what I cannot create I do not understand”, what better way to do this than implement it from scratch?
 
 **We are going to create, digitally sign, and broadcast a Bitcoin transaction in pure Python, from scratch, and with zero dependencies.** In the process we’re going to learn quite a bit about how Bitcoin represents value. Let’s get it.

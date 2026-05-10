@@ -1,3 +1,16 @@
+这是我最认真的短篇故事尝试——关于AI的故事，设想如果我们当前技术（尤其是扩展监督学习）继续推进会是什么样子。
+
+故事围绕Merus展开，他是一名"shaper"（塑造师），工作是通过远程控制人形机器人（avatar）来训练AI代理。故事探讨了：
+- **远程临场与塑造：** 人类通过控制机器人身体来训练神经网络
+- **神秘模块：** 一个匿名贡献的开源神经网络模块，极大提升了性能但无人理解其原理
+- **数字大脑考古：** 追踪AI代理的血统回到最早的"Adam"检查点
+- **代理心理学：** AI的"类人"行为只是模板，无法保持一致性
+- **意识涌现：** 故事高潮中，代理突破了预期行为，展现出真正的理解
+
+---
+
+*English original below:*
+
 The idea of writing a collection of short stories has been on my mind for a while. This post is my first ever half-serious attempt at a story, and what better way to kick things off than with a story on AI and what that might look like if you extrapolate our current technology and make the (sensible) assumption that we might achieve much more progress with scaling up supervised learning than any other more exotic approach.
 
 ---

@@ -14,4 +14,4 @@
 | [The Space of Minds](./the-space-of-minds-for-kids.md) | 人类脑子是"丛林求生模式"，AI 脑子是"做题拿分模式"。 |
 | [Verifiability](./verifiability-for-kids.md) | 能打对错的事情 AI 学得最快。 |
 | [Vibe Coding MenuGen](./vibe-coding-menugen-for-kids.md) | 他做了一个给菜单配图的 App，一个字都没自己写。 |
-| [2025 LLM Year in Review](./year-in-review-2025-for-kids.md) | 2025 年 AI 的 6 件大事：做题变聪明、幽灵论、vibe coding 等等。 |
+| [2025 LLM Year in Review](./year-in-review-2025-for-kids.md) | 2025 年 AI 的 6 件大事：做题变聪明、幽灵论、vibe coding 等。 |

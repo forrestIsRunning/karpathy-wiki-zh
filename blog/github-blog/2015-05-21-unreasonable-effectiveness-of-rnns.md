@@ -1,3 +1,24 @@
+关于循环神经网络（RNN），有一些神奇的东西。本文展示如何训练RNN逐字符生成文本，并探讨"这怎么可能？"
+
+### RNN基础
+RNN允许我们在向量序列上操作。核心是简洁的API：接受输入向量x，输出y，但输出受整个历史影响。
+
+### 字符级语言模型
+我们给RNN大量文本，让它建模序列中下一个字符的概率分布。训练后，我们可以逐字符生成新文本。
+
+### 有趣的例子
+**Paul Graham生成器：** 在PG散文上训练——生成像startup智慧的内容。**莎士比亚：** LSTM学会了拼写、对话结构和角色名称。**维基百科：** 生成结构化的markdown、标题、列表、XML。**代数几何（Latex）：** 生成几乎能编译的Latex数学。**Linux源代码：** 生成看起来像大型C代码库的内容。
+
+### 理解内部机理
+训练过程中的样本演化：从随机乱码到单词再到完整句子。神经元可视化显示，LSTM学习检测URL、引号、括号内的位置等。
+
+### 结论
+RNN是强大的序列模型。代码在Github上发布。注意力机制是神经网络最有趣的架构创新之一。
+
+---
+
+*English original below:*
+
 There’s something magical about Recurrent Neural Networks (RNNs). I still remember when I trained my first recurrent network for [Image Captioning](http://cs.stanford.edu/people/karpathy/deepimagesent/). Within a few dozen minutes of training my first baby model (with rather arbitrarily-chosen hyperparameters) started to generate very nice looking descriptions of images that were on the edge of making sense. Sometimes the ratio of how simple your model is to the quality of the results you get out of it blows past your expectations, and this was one of those times. What made this result so shocking at the time was that the common wisdom was that RNNs were supposed to be difficult to train (with more experience I’ve in fact reached the opposite conclusion). Fast forward about a year: I’m training RNNs all the time and I’ve witnessed their power and robustness many times, and yet their magical outputs still find ways of amusing me. This post is about sharing some of that magic with you.
 
 > We’ll train RNNs to generate text character by character and ponder the question “how is that even possible?”

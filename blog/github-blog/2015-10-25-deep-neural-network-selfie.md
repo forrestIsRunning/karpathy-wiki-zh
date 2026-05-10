@@ -1,3 +1,23 @@
+卷积神经网络很强大：它们识别人、地点、物体。在这个项目中，我们用一个1.4亿参数的最先进CNN模型，喂入200万张自拍，训练它分类好的和差的自拍。
+
+### CNN如何工作
+简单说：卷积层使用小滤波器在图像上滑动。不同滤波器对不同特征响应（边缘、颜色等）。多层堆叠检测越来越复杂的模式。所有滤波器随机初始化后通过训练调整。
+
+### 如何训练
+收集500万张#selfie标签图像，过滤到200万张含人脸图像。按点赞数分类好/差，归一化粉丝数影响。使用Caffe训练VGGNet模型（ImageNet预训练微调），验证集准确率60%。
+
+### 好自拍的秘诀
+**该做：** 女性、脸部约占1/3、倾斜中心、露长发、过饱和脸部、加滤镜、加边框。
+**不该做：** 暗光、头太大、群体照。
+**男性自拍：** 更宽构图、头全入镜、肩膀可见、时髦发型。
+
+### 结论
+CNN强大且有趣。从图像示例自动学习模式。用[@deepselfie](https://twitter.com/deepselfie) Twitter机器人测试你的自拍！
+
+---
+
+*English original below:*
+
 ![](https://karpathy.github.io/assets/selfie/teaser.jpeg)
 
 Convolutional Neural Networks are great: they recognize things, places and people in your personal photos, signs, people and lights in self-driving cars, crops, forests and traffic in aerial imagery, various anomalies in medical images and all kinds of other useful things. But once in a while these powerful visual recognition models can also be warped for distraction, fun and amusement. In this fun experiment we’re going to do just that: We’ll take a powerful, 140-million-parameter state-of-the-art Convolutional Neural Network, feed it 2 million selfies from the internet, and train it to classify good selfies from bad ones. Just because it’s easy and because we can. And in the process we might learn how to take better selfies:)

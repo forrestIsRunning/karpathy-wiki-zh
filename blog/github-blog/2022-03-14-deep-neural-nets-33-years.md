@@ -1,3 +1,15 @@
+Yann LeCun等人1989年的论文是首批用反向传播端到端训练神经网络的真实应用。33年后读起来仍然非常现代。
+
+**复现：** 我尽可能地复现了论文。在MacBook Air (M1)上约90秒完成，而原始SUN-4/260工作站需要3天（约3000倍加速）。原始结果：测试错误率5.00%。我的复现：4.09%。
+
+**用时间旅行作弊：** 利用现代技术改进：交叉熵损失替代MSE（过拟合训练集）、AdamW优化器（测试错误3.59%）、数据增强（2.19%）、Dropout + ReLU（1.59%）。最终减少约60%错误。
+
+**结论：** 33年来宏观层面变化不大——仍然是可微神经网络+反向传播+SGD。但数据集大了约1亿倍，模型大了约100万倍。从零训练迅速过时，基础模型（如GPT）的微调正成为主流。
+
+---
+
+*English original below:*
+
 The Yann LeCun et al. (1989) paper [Backpropagation Applied to Handwritten Zip Code Recognition](http://yann.lecun.com/exdb/publis/pdf/lecun-89e.pdf) is I believe of some historical significance because it is, to my knowledge, the earliest real-world application of a neural net trained end-to-end with backpropagation. Except for the tiny dataset (7291 16x16 grayscale images of digits) and the tiny neural network used (only 1,000 neurons), this paper reads remarkably modern today, 33 years later - it lays out a dataset, describes the neural net architecture, loss function, optimization, and reports the experimental classification error rates over training and test sets. It’s all very recognizable and type checks as a modern deep learning paper, except it is from 33 years ago. So I set out to reproduce the paper 1) for fun, but 2) to use the exercise as a case study on the nature of progress in deep learning.
 
 ![](https://karpathy.github.io/assets/lecun/lecun1989.png)

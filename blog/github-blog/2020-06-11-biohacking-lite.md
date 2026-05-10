@@ -1,3 +1,17 @@
+我从未太关注健康和营养，但在2019年中决定花时间研究这些主题。一年后，我发现自己在做生酮饮食、血糖测试、间歇性禁食等。
+
+**减肥的生物学原理：** 身体有4种"电池"——超短期（磷酸肌酸）、短期（糖原）、长期（脂肪）、最后手段（肌肉）。脂肪是你的主要电池组。减重时，你通过呼吸呼出碳原子——84%的脂肪通过CO2排出。
+
+**能量输入：** 只有通过食物。**能量输出：** 基础代谢率（BMR）+ 运动。
+
+**实验：** 我设定了每天500千卡赤字的目标。从195磅减到165磅，约0.58磅/周。简单来说，少吃多动确实有效。但实际比简单计算慢约40%，可能因蛋白质用于增肌所致。
+
+**总结：** 我学到了大量关于细胞呼吸、光合作用、ATP合成的知识。现在我去吃些饼干了。
+
+---
+
+*English original below:*
+
 Throughout my life I never paid too much attention to health, exercise, diet or nutrition. I knew that you’re supposed to get some exercise and eat vegetables or something, but it stopped at that (“mom said”-) level of abstraction. I also knew that I can probably get away with some ignorance while I am young, but at some point I was messing with my health-adjusted life expectancy. So about halfway through 2019 I resolved to spend some time studying these topics in greater detail and dip my toes into some biohacking. And now… it’s been a year!
 
 ![](https://karpathy.github.io/assets/bio/subway_map.png)

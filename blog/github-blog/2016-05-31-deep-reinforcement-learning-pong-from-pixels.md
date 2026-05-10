@@ -1,3 +1,20 @@
+这篇是关于强化学习（RL）的博客文章。RL很热！计算机现在能从像素自动学习打ATARI游戏、在围棋上击败世界冠军、机器人学习复杂操作。
+
+### 从像素学Pong
+我们使用策略梯度（PG）方法，用130行Python代码从空开始学习玩Pong。策略网络是一个2层神经网络，输入像素，输出向上或向下的概率。
+
+**核心思想：** 运行策略一段时间，看哪些动作导致了高奖励，增加它们的概率。就像监督学习，但使用"假标签"（实际采样的动作）并按结果调整。
+
+### 不是魔法
+策略梯度本质上是强力试错。与人类学习不同——人类利用先验知识、建立抽象模型、推理计划。RL需要经历大量正奖励才能缓慢调整。
+
+### 结论
+策略梯度是强大但通用的算法。可以用于训练任意游戏的代理。关键在于理解其优点（频繁奖励信号、精确控制）和缺点（需要大量采样、难以长期规划）。
+
+---
+
+*English original below:*
+
 This is a long overdue blog post on Reinforcement Learning (RL). RL is hot! You may have noticed that computers can now automatically [learn to play ATARI games](http://www.nature.com/nature/journal/v518/n7540/abs/nature14236.html) (from raw game pixels!), they are beating world champions at [Go](http://googleresearch.blogspot.com/2016/01/alphago-mastering-ancient-game-of-go.html), simulated quadrupeds are learning to [run and leap](https://www.cs.ubc.ca/~van/papers/2016-TOG-deepRL/index.html), and robots are learning how to perform [complex manipulation tasks](http://www.bloomberg.com/features/2015-preschool-for-robots/) that defy explicit programming. It turns out that all of these advances fall under the umbrella of RL research. I also became interested in RL myself over the last ~year: I worked [through Richard Sutton’s book](https://webdocs.cs.ualberta.ca/~sutton/book/the-book.html), read through [David Silver’s course](http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html), watched [John Schulmann’s lectures](https://www.youtube.com/watch?v=oPGVsoBonLM), wrote an [RL library in Javascript](http://cs.stanford.edu/people/karpathy/reinforcejs/), over the summer interned at DeepMind working in the DeepRL group, and most recently pitched in a little with the design/development of [OpenAI Gym](https://gym.openai.com/), a new RL benchmarking toolkit. So I’ve certainly been on this funwagon for at least a year but until now I haven’t gotten around to writing up a short post on why RL is a big deal, what it’s about, how it all developed and where it might be going.
 
 ![](https://karpathy.github.io/assets/rl/preview.jpeg)
