@@ -1,5 +1,11 @@
 # Let's build GPT: from scratch, in code, spelled out.
 
+**中文说明：** 这是 Karpathy 的 "Zero to Hero" 系列中的一集。该系列从零开始构建神经网络，最终到达 GPT。本集的具体内容和观看链接如下。
+
+---
+
+# Let's build GPT: from scratch, in code, spelled out.
+
 - **Source:** [YouTube](https://www.youtube.com/watch?v=kCc8FmEb1nY)
 - **Author:** Andrej Karpathy
 - **Video ID:** kCc8FmEb1nY

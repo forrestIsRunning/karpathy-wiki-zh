@@ -1,5 +1,11 @@
 # State of GPT | BRK216HFS
 
+**中文说明：** 这是 Karpathy 的 "Zero to Hero" 系列中的一集。该系列从零开始构建神经网络，最终到达 GPT。本集的具体内容和观看链接如下。
+
+---
+
+# State of GPT | BRK216HFS
+
 - **Source:** [YouTube](https://www.youtube.com/watch?v=bZQun8Y4L2A)
 - **Author:** Andrej Karpathy
 - **Video ID:** bZQun8Y4L2A

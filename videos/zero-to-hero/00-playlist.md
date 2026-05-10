@@ -1,5 +1,11 @@
 # Zero to Hero Playlist
 
+**中文说明：** 这是 Karpathy 的 "Zero to Hero" 系列中的一集。该系列从零开始构建神经网络，最终到达 GPT。本集的具体内容和观看链接如下。
+
+---
+
+# Zero to Hero Playlist
+
 - **Playlist URL:** https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ
 - **Channel:** Andrej Karpathy
 

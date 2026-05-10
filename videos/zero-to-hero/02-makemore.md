@@ -1,5 +1,11 @@
 # The spelled-out intro to language modeling: building makemore
 
+**中文说明：** 这是 Karpathy 的 "Zero to Hero" 系列中的一集。该系列从零开始构建神经网络，最终到达 GPT。本集的具体内容和观看链接如下。
+
+---
+
+# The spelled-out intro to language modeling: building makemore
+
 - **Source:** [YouTube](https://www.youtube.com/watch?v=PaCmpygFfXo)
 - **Author:** Andrej Karpathy
 - **Video ID:** PaCmpygFfXo
